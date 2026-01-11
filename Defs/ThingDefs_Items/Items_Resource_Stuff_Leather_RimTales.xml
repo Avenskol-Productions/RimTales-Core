@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>RTCore_Leather_Light</defName>
+    <label>RT light leather</label>
+    <description>Lightweight, thin leather. Probably harvested from a small animal. Not as protective as thicker leathers.</description>
+    <graphicData>
+      <color>(140,85,36)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.9</MarketValue>
+      <StuffPower_Armor_Sharp>0.54</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.14</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>11</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(140,85,36)</color>
+      <commonality>0.60</commonality>
+      <statFactors>
+        <MaxHitPoints>1.0</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>RTCore_Leather_Medium</defName>
+    <label>RT leather</label>
+    <description>Average weight, leather. Probably harvested from a medium sized animal. Provides average protection.</description>
+    <graphicData>
+      <color>(145,90,42)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.85</MarketValue>
+      <StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.21</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>11</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>13</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(145,90,42)</color>
+      <commonality>0.48</commonality>
+      <statFactors>
+        <MaxHitPoints>1.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>RTCore_Leather_Hard</defName>
+    <label>RT hard leather</label>
+    <description>Heavy weight, hard leather. Probably harvested from a large animal. Highly protective.</description>
+    <graphicData>
+      <color>(150,100,54)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>4.27</MarketValue>
+      <StuffPower_Armor_Sharp>1.21</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.31</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>13</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>15</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(150,100,54)</color>
+      <commonality>0.36</commonality>
+      <statFactors>
+        <MaxHitPoints>2.25</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>RTCore_Leather_Archaic</defName>
+    <label>RT archaic leather</label>
+    <description>Profoundly heavy weight, archaic leather. Probably harvested from an enormous being. Remarkably protective.</description>
+    <graphicData>
+      <color>(155,105,66)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>6.40</MarketValue>
+      <StuffPower_Armor_Sharp>1.81</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.46</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>17</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(155,105,66)</color>
+      <commonality>0.24</commonality>
+      <statFactors>
+        <MaxHitPoints>3.37</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>RTCore_Leather_Daemonic</defName>
+    <label>RT daemonic leather</label>
+    <description>Unremarkably heavy weight, ancient leather. Probably harvested from an ancient being. Provides godly protection.</description>
+    <graphicData>
+      <color>(165,115,90)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>9.6</MarketValue>
+      <StuffPower_Armor_Sharp>2.71</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.69</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>17</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>19</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(165,115,90)</color>
+      <commonality>0.12</commonality>
+      <statFactors>
+        <MaxHitPoints>5.05</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

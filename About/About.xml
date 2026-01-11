@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>AvenskolProductions.RimTales.Core</packageId>
+  <author>Avenskol Official</author>
+<supportedVersions>
+  	<li>1.6</li>
+  </supportedVersions>
+  <description>The official RimTales Core mod for RimWorld.</description>
+  <forceLoadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </forceLoadAfter>
+  <modDependencies>
+	<li>
+		<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+		<displayName>Vanilla Expanded Framework</displayName>
+		<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013</steamWorkshopUrl>
+		<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+	</li>
+  </modDependencies>
+</ModMetaData>
