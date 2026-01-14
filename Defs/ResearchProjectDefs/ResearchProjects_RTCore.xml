@@ -5,21 +5,22 @@
 
   <ResearchProjectDef>
     <defName>RTCore_Neolithic_Melee</defName>
-    <label>neolithic weapons</label>
-    <description>Craft neolithic weapons.</description>
+    <label>neolithic melee weapons</label>
+    <description>Craft neolithic melee weapons.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1000</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
-      <li>TribalStart</li>
+      <li>ClassicStart</li>
+	  <li>TribalStart</li>
     </tags>
     <researchViewX>0.0</researchViewX>
     <researchViewY>0.0</researchViewY>
     <generalRules>
       <rulesStrings>
-        <li>subject->neolithic weapons</li>
+        <li>subject->neolithic melee weapons</li>
         <li>subject_story->made sure of their own protection in battle.</li>
-        <li>subject_gerund->crafting neolithic weapons</li>
+        <li>subject_gerund->crafting neolithic melee weapons</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
@@ -28,11 +29,14 @@
 
     <ResearchProjectDef>
     <defName>RTCore_Medieval_Melee</defName>
-    <label>medieval weapons</label>
-    <description>Craft medieval weapons.</description>
+    <label>medieval melee weapons</label>
+    <description>Craft medieval melee weapons.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
     <prerequisites>
       <li>RTCore_Neolithic_Melee</li>
     </prerequisites>
@@ -40,9 +44,104 @@
     <researchViewY>0.0</researchViewY>
     <generalRules>
       <rulesStrings>
-        <li>subject->medieval weapons</li>
+        <li>subject->medieval melee weapons</li>
         <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
-        <li>subject_gerund->crafting medieval weapons</li>
+        <li>subject_gerund->crafting medieval melee weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+<!--Industrial-->
+
+    <ResearchProjectDef>
+    <defName>RTCore_Modern_Melee</defName>
+    <label>modern melee weapons</label>
+    <description>Craft modern melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Medieval_Melee</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->modern melee weapons</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting modern melee weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+<!--Spacer-->
+
+    <ResearchProjectDef>
+    <defName>RTCore_Spacer_Melee</defName>
+    <label>spacer melee weapons</label>
+    <description>Craft modern melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>RTCore_Modern_Melee</li>
+    </prerequisites>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->spacer melee weapons</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting spacer melee weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+<!--Ultratech-->
+
+    <ResearchProjectDef>
+    <defName>RTCore_Ultratech_Melee</defName>
+    <label>ultratech melee weapons</label>
+    <description>Craft ultratech melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>RTCore_Spacer_Melee</li>
+    </prerequisites>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ultratech melee weapons</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting ultratech melee weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+<!--Archotech-->
+
+    <ResearchProjectDef>
+    <defName>RTCore_Archotech_Melee</defName>
+    <label>archotech melee weapons</label>
+    <description>Craft archotech melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Archotech</techLevel>
+    <prerequisites>
+      <li>RTCore_Ultratech_Melee</li>
+    </prerequisites>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->archotech melee weapons</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting archotech melee weapons</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
