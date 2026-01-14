@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+  <ResearchTabDef>
+    <defName>RTCore_Research</defName>
+    <label>RimTales Core</label>
+    <generalTitle>RimTales Core research projects</generalTitle>
+    <generalDescription>RimTales Core research project catagories.</generalDescription>
+  </ResearchTabDef>
+</Defs>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--Neolithic-->
+
+  <ResearchProjectDef>
+    <defName>RTCore_Neolithic_Melee</defName>
+    <label>neolithic weapons</label>
+    <description>Craft neolithic weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->neolithic weapons</li>
+        <li>subject_story->made sure of their own protection in battle.</li>
+        <li>subject_gerund->crafting neolithic weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+<!--Medieval-->
+
+    <ResearchProjectDef>
+    <defName>RTCore_Medieval_Melee</defName>
+    <label>medieval weapons</label>
+    <description>Craft medieval weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>RTCore_Neolithic_Melee</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->medieval weapons</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting medieval weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+</Defs>
