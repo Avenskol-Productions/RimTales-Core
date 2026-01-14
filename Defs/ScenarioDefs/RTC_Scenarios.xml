@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ScenarioDef Name="Seven Settlers">
+		<defName>Seven_Settlers</defName>
+		<label>Seven Settlers</label>
+		<description>The seven of you have found an ideal location for a base. You gather your stuff and make your journey to there. You plan to begin work.</description>
+		<scenario>
+		<summary>Seven settlers embark on a journey on foot.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerColony</factionDef>
+		</playerFaction>
+		<surfaceLayer>
+			<def>SurfaceLayerFixed</def>
+			<tag>Surface</tag>
+			<layer>Surface</layer>
+			<settingsDef>Surface</settingsDef>
+			<hide>true</hide>
+			<connections>
+				<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+					<zoomMode>ZoomOut</zoomMode>
+				</Orbit>
+			</connections>
+		</surfaceLayer>
+		<parts>
+			<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+				<def>PlanetLayer</def>
+				<tag>Orbit</tag>
+				<layer>Orbit</layer>
+				<settingsDef>Orbit</settingsDef>
+				<hide>true</hide>
+				<connections>
+					<Surface>
+						<zoomMode>ZoomIn</zoomMode>
+					</Surface>
+				</connections>
+			</li>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnChoiceCount>7</pawnChoiceCount>
+				<pawnCount>7</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>800</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>57</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gun_BoltActionRifle</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gun_Revolver</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<stuff>Plasteel</stuff>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<count>3</count>
+				<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>320</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>1150</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>You have arrived from a journey from your settlement. It is spring now, but with hard labor and sustenance. Take care of your population, before the winter entombs you.</text>
+				<textKey>GameStartDialog</textKey>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+
+		<ScenarioDef Name="Seven Tribals">
+		<defName>Seven_Tribals</defName>
+		<label>Seven Tribals</label>
+		<description>The seven of you have found an ideal location for a tribe. You gather your stuff and make your journey to there. You plan to begin work.</description>
+		<scenario>
+		<summary>Seven tribals embark on a journey on foot.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>PlayerTribe</factionDef>
+		</playerFaction>
+		<surfaceLayer>
+			<def>SurfaceLayerFixed</def>
+			<tag>Surface</tag>
+			<layer>Surface</layer>
+			<settingsDef>Surface</settingsDef>
+			<hide>true</hide>
+			<connections>
+				<Orbit MayRequire="Ludeon.RimWorld.Odyssey">
+					<zoomMode>ZoomOut</zoomMode>
+				</Orbit>
+			</connections>
+		</surfaceLayer>
+		<parts>
+			<li MayRequire="Ludeon.RimWorld.Odyssey" Class="ScenPart_PlanetLayer">
+				<def>PlanetLayer</def>
+				<tag>Orbit</tag>
+				<layer>Orbit</layer>
+				<settingsDef>Orbit</settingsDef>
+				<hide>true</hide>
+				<connections>
+					<Surface>
+						<zoomMode>ZoomIn</zoomMode>
+					</Surface>
+				</connections>
+			</li>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnChoiceCount>7</pawnChoiceCount>
+				<pawnCount>7</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>800</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Pemmican</thingDef>
+				<count>57</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineHerbal</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Ikwa</thingDef>
+				<stuff>Steel</stuff>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Spear</thingDef>
+				<stuff>Steel</stuff>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<stuff>Steel</stuff>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<count>3</count>
+				<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>735</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>WoodLog</thingDef>
+				<count>735</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>You have arrived from a journey from your tribe. It is spring now, but with hard labor and sustenance. Take care of your population, before the winter entombs you.</text>
+				<textKey>GameStartDialog</textKey>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>
