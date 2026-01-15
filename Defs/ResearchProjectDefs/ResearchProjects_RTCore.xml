@@ -32,7 +32,7 @@
     <label>medieval melee weapons</label>
     <description>Craft medieval melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>1250</baseCost>
     <techLevel>Medieval</techLevel>
 	<tags>
       <li>ClassicStart</li>
@@ -58,7 +58,7 @@
     <label>modern melee weapons</label>
     <description>Craft modern melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
 	<tags>
       <li>ClassicStart</li>
@@ -84,11 +84,15 @@
     <label>spacer melee weapons</label>
     <description>Craft modern melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>1750</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>RTCore_Modern_Melee</li>
     </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
     <researchViewX>3.0</researchViewX>
     <researchViewY>0.0</researchViewY>
     <generalRules>
@@ -107,11 +111,15 @@
     <label>ultratech melee weapons</label>
     <description>Craft ultratech melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
       <li>RTCore_Spacer_Melee</li>
     </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
     <researchViewX>4.0</researchViewX>
     <researchViewY>0.0</researchViewY>
     <generalRules>
@@ -130,11 +138,15 @@
     <label>archotech melee weapons</label>
     <description>Craft archotech melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>2250</baseCost>
     <techLevel>Archotech</techLevel>
     <prerequisites>
       <li>RTCore_Ultratech_Melee</li>
     </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
     <researchViewX>5.0</researchViewX>
     <researchViewY>0.0</researchViewY>
     <generalRules>
