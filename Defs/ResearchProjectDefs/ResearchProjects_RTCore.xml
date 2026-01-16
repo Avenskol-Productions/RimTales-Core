@@ -19,7 +19,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic crafting</li>
-        <li>subject_story->found a spot to craft their equipment.</li>
+        <li>subject_story->find a spot to craft their equipment.</li>
         <li>subject_gerund->crafting neolithic general equipment</li>
       </rulesStrings>
     </generalRules>
@@ -52,6 +52,30 @@
 
 <!--Medieval-->
 
+  <ResearchProjectDef>
+    <defName>RTCore_Medieval_Crafting</defName>
+    <label>advanced crafting</label>
+    <description>Craft general equipment on a basic bench.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Neolithic_Crafting</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->medieval crafting</li>
+        <li>subject_story->build a bench to craft their equipment.</li>
+        <li>subject_gerund->crafting medieval general equipment</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
     <ResearchProjectDef>
     <defName>RTCore_Medieval_Melee</defName>
     <label>medieval melee weapons</label>
@@ -59,6 +83,9 @@
 	<tab>RTCore_Research</tab>
     <baseCost>1250</baseCost>
     <techLevel>Medieval</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Medieval_Crafting</li>
+    </hiddenPrerequisites>
 	<tags>
       <li>ClassicStart</li>
     </tags>
