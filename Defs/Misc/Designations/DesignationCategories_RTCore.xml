@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <DesignationCategoryDef>
+    <defName>RTCore_DesignationCatagory</defName>
+    <label>RimTales Core</label>
+    <order>725</order>
+  </DesignationCategoryDef>  
+</Defs>

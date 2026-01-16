@@ -18,7 +18,7 @@
     <scatterableOnMapGen>false</scatterableOnMapGen>
     <useHitPoints>false</useHitPoints>
     <size>(1,1)</size>
-    <designationCategory>Production</designationCategory>
+    <designationCategory>RTCore_DesignationCatagory</designationCategory>
     <uiOrder>2000</uiOrder>
     <passability>Standable</passability>
     <hasInteractionCell>True</hasInteractionCell>
@@ -57,5 +57,8 @@
       <li>PlaceWorker_ReportWorkSpeedPenalties</li>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
+    <researchPrerequisites>
+      <li>RTCore_Neolithic_Crafting</li>
+    </researchPrerequisites>
   </ThingDef>
 </Defs>

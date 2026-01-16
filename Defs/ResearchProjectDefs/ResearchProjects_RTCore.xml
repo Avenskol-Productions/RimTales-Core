@@ -4,11 +4,11 @@
 <!--Neolithic-->
 
   <ResearchProjectDef>
-    <defName>RTCore_Neolithic_Melee</defName>
-    <label>neolithic melee weapons</label>
-    <description>Craft neolithic melee weapons.</description>
+    <defName>RTCore_Neolithic_Crafting</defName>
+    <label>basic crafting</label>
+    <description>Craft general equipment on the ground.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>250</baseCost>
     <techLevel>Neolithic</techLevel>
     <tags>
       <li>ClassicStart</li>
@@ -16,6 +16,31 @@
     </tags>
     <researchViewX>0.0</researchViewX>
     <researchViewY>0.0</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->neolithic crafting</li>
+        <li>subject_story->found a spot to craft their equipment.</li>
+        <li>subject_gerund->crafting neolithic general equipment</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RTCore_Neolithic_Melee</defName>
+    <label>neolithic melee weapons</label>
+    <description>Craft neolithic melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Neolithic</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Neolithic_Crafting</li>
+    </hiddenPrerequisites>
+    <tags>
+      <li>ClassicStart</li>
+	  <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic melee weapons</li>
@@ -41,7 +66,7 @@
       <li>RTCore_Neolithic_Melee</li>
     </prerequisites>
     <researchViewX>1.0</researchViewX>
-    <researchViewY>0.0</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->medieval melee weapons</li>
@@ -67,7 +92,7 @@
       <li>RTCore_Medieval_Melee</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>0.0</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->industrial melee weapons</li>
@@ -94,7 +119,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>3.0</researchViewX>
-    <researchViewY>0.0</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->spacer melee weapons</li>
@@ -121,7 +146,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>4.0</researchViewX>
-    <researchViewY>0.0</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->ultratech melee weapons</li>
@@ -148,7 +173,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>5.0</researchViewX>
-    <researchViewY>0.0</researchViewY>
+    <researchViewY>0.7</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->archotech melee weapons</li>
