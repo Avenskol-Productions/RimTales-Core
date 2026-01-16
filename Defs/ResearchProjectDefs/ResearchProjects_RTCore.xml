@@ -54,9 +54,9 @@
 <!--Industrial-->
 
     <ResearchProjectDef>
-    <defName>RTCore_Modern_Melee</defName>
-    <label>modern melee weapons</label>
-    <description>Craft modern melee weapons.</description>
+    <defName>RTCore_Industrial_Melee</defName>
+    <label>industrial melee weapons</label>
+    <description>Craft industrial melee weapons.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
@@ -70,9 +70,9 @@
     <researchViewY>0.0</researchViewY>
     <generalRules>
       <rulesStrings>
-        <li>subject->modern melee weapons</li>
+        <li>subject->industrial melee weapons</li>
         <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
-        <li>subject_gerund->crafting modern melee weapons</li>
+        <li>subject_gerund->crafting industrial melee weapons</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
@@ -87,7 +87,7 @@
     <baseCost>1750</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
-      <li>RTCore_Modern_Melee</li>
+      <li>RTCore_Industrial_Melee</li>
     </prerequisites>
 	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 	<requiredResearchFacilities>
