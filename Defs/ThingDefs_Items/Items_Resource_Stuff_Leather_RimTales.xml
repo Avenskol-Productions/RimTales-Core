@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>RTCore_Leather_Light</defName>
-    <label>RT light leather</label>
+    <label>light leather</label>
     <description>Lightweight, thin leather. Probably harvested from a small animal. Not as protective as thicker leathers.</description>
     <graphicData>
       <color>(140,85,36)</color>
@@ -26,7 +26,7 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>RTCore_Leather_Medium</defName>
-    <label>RT leather</label>
+    <label>leather</label>
     <description>Average weight, leather. Probably harvested from a medium sized animal. Provides average protection.</description>
     <graphicData>
       <color>(145,90,42)</color>
@@ -49,7 +49,7 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>RTCore_Leather_Hard</defName>
-    <label>RT hard leather</label>
+    <label>hard leather</label>
     <description>Heavy weight, hard leather. Probably harvested from a large animal. Highly protective.</description>
     <graphicData>
       <color>(150,100,54)</color>
@@ -72,7 +72,7 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>RTCore_Leather_Archaic</defName>
-    <label>RT archaic leather</label>
+    <label>archaic leather</label>
     <description>Profoundly heavy weight, archaic leather. Probably harvested from an enormous being. Remarkably protective.</description>
     <graphicData>
       <color>(155,105,66)</color>
@@ -95,7 +95,7 @@
 
   <ThingDef ParentName="LeatherBase">
     <defName>RTCore_Leather_Daemonic</defName>
-    <label>RT daemonic leather</label>
+    <label>daemonic leather</label>
     <description>Unremarkably heavy weight, ancient leather. Probably harvested from an ancient being. Provides godly protection.</description>
     <graphicData>
       <color>(165,115,90)</color>
