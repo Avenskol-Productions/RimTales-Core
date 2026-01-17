@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<ScenarioDef Name="Seven Settlers">
-		<defName>Seven_Settlers</defName>
-		<label>Seven Settlers</label>
+	<ScenarioDef Name="Seven Colonists">
+		<defName>Seven_Colonists</defName>
+		<label>Seven Colonists</label>
 		<description>The seven of you have found an ideal location for a base. You gather your stuff and make your journey to there. You plan to begin work.</description>
 		<scenario>
-		<summary>Seven settlers embark on a journey on foot.</summary>
+		<summary>Seven colonists embark on a journey on foot.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
 			<factionDef>PlayerColony</factionDef>
@@ -99,7 +99,7 @@
 			</li>
 			<li Class="ScenPart_GameStartDialog">
 				<def>GameStartDialog</def>
-				<text>You have arrived from a journey from your settlement. It is spring now, but with hard labor and sustenance. Take care of your population, before the winter entombs you.</text>
+				<text>You have arrived from a journey from your colony. It is spring now, but with hard labor and sustenance. Take care of your population, before the winter entombs you.</text>
 				<textKey>GameStartDialog</textKey>
 				<closeSound>GameStartSting</closeSound>
 			</li>

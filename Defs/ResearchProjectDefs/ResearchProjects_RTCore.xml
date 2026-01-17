@@ -19,7 +19,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic crafting</li>
-        <li>subject_story->find a spot to craft their equipment.</li>
+        <li>subject_story->found a spot to craft their equipment.</li>
         <li>subject_gerund->crafting neolithic general equipment</li>
       </rulesStrings>
     </generalRules>
@@ -44,7 +44,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic tools</li>
-        <li>subject_story->made sure of their own protection in battle.</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
         <li>subject_gerund->crafting neolithic tools</li>
       </rulesStrings>
     </generalRules>
@@ -69,7 +69,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic melee weapons</li>
-        <li>subject_story->made sure of their own protection in battle.</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
         <li>subject_gerund->crafting neolithic melee weapons</li>
       </rulesStrings>
     </generalRules>
@@ -95,7 +95,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->medieval crafting</li>
-        <li>subject_story->build a bench to craft their equipment.</li>
+        <li>subject_story->built a bench to craft their equipment.</li>
         <li>subject_gerund->crafting medieval general equipment</li>
       </rulesStrings>
     </generalRules>
