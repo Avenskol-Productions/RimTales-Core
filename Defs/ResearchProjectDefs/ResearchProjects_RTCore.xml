@@ -26,9 +26,9 @@
   </ResearchProjectDef>
 
   <ResearchProjectDef>
-    <defName>RTCore_Neolithic_Melee</defName>
-    <label>neolithic melee weapons</label>
-    <description>Craft neolithic melee weapons.</description>
+    <defName>RTCore_Neolithic_Tools</defName>
+    <label>neolithic tools</label>
+    <description>Craft neolithic tools.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
@@ -41,6 +41,31 @@
     </tags>
     <researchViewX>0.0</researchViewX>
     <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->neolithic tools</li>
+        <li>subject_story->made sure of their own protection in battle.</li>
+        <li>subject_gerund->crafting neolithic tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RTCore_Neolithic_Melee</defName>
+    <label>neolithic melee weapons</label>
+    <description>Craft neolithic melee weapons.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>750</baseCost>
+    <techLevel>Neolithic</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Neolithic_Crafting</li>
+    </hiddenPrerequisites>
+    <tags>
+      <li>ClassicStart</li>
+	  <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->neolithic melee weapons</li>
@@ -76,12 +101,39 @@
     </generalRules>
   </ResearchProjectDef>
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RTCore_Medieval_Tools</defName>
+    <label>medieval tools</label>
+    <description>Craft medieval tools.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>750</baseCost>
+    <techLevel>Medieval</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Medieval_Crafting</li>
+    </hiddenPrerequisites>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Neolithic_Tools</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->medieval tools</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
+        <li>subject_gerund->crafting medieval tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>RTCore_Medieval_Melee</defName>
     <label>medieval melee weapons</label>
     <description>Craft medieval melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>750</baseCost>
+    <baseCost>1000</baseCost>
     <techLevel>Medieval</techLevel>
 	<hiddenPrerequisites>
       <li>RTCore_Medieval_Crafting</li>
@@ -93,7 +145,7 @@
       <li>RTCore_Neolithic_Melee</li>
     </prerequisites>
     <researchViewX>1.0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->medieval melee weapons</li>
@@ -105,12 +157,36 @@
 
 <!--Industrial-->
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RTCore_Industrial_Tools</defName>
+    <label>industrial tools</label>
+    <description>Craft industrial tools.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Medieval_Tools</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->industrial tools</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
+        <li>subject_gerund->crafting industrial tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>RTCore_Industrial_Melee</defName>
     <label>industrial melee weapons</label>
     <description>Craft industrial melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1000</baseCost>
+    <baseCost>1250</baseCost>
     <techLevel>Industrial</techLevel>
 	<tags>
       <li>ClassicStart</li>
@@ -119,7 +195,7 @@
       <li>RTCore_Medieval_Melee</li>
     </prerequisites>
     <researchViewX>2.0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->industrial melee weapons</li>
@@ -131,12 +207,37 @@
 
 <!--Spacer-->
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RTCore_Spacer_Tools</defName>
+    <label>spacer tools</label>
+    <description>Craft modern tools.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1250</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>RTCore_Industrial_Tools</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->spacer tools</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
+        <li>subject_gerund->crafting spacer tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>RTCore_Spacer_Melee</defName>
     <label>spacer melee weapons</label>
     <description>Craft modern melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1250</baseCost>
+    <baseCost>1500</baseCost>
     <techLevel>Spacer</techLevel>
     <prerequisites>
       <li>RTCore_Industrial_Melee</li>
@@ -146,7 +247,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>3.0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->spacer melee weapons</li>
@@ -158,12 +259,37 @@
 
 <!--Ultratech-->
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RTCore_Ultratech_Tools</defName>
+    <label>ultratech tools</label>
+    <description>Craft ultratech tools.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>RTCore_Spacer_Tools</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ultratech tools</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
+        <li>subject_gerund->crafting ultratech tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>RTCore_Ultratech_Melee</defName>
     <label>ultratech melee weapons</label>
     <description>Craft ultratech melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1500</baseCost>
+    <baseCost>1750</baseCost>
     <techLevel>Ultra</techLevel>
     <prerequisites>
       <li>RTCore_Spacer_Melee</li>
@@ -173,7 +299,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>4.0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->ultratech melee weapons</li>
@@ -185,12 +311,37 @@
 
 <!--Archotech-->
 
-    <ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>RTCore_Archotech_Tools</defName>
+    <label>archotech tools</label>
+    <description>Craft archotech tools.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1750</baseCost>
+    <techLevel>Archotech</techLevel>
+    <prerequisites>
+      <li>RTCore_Ultratech_Tools</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>0.7</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->archotech tools</li>
+        <li>subject_story->made sure to make use of their skill, with new tools.</li>
+        <li>subject_gerund->crafting archotech tools</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
     <defName>RTCore_Archotech_Melee</defName>
     <label>archotech melee weapons</label>
     <description>Craft archotech melee weapons.</description>
 	<tab>RTCore_Research</tab>
-    <baseCost>1750</baseCost>
+    <baseCost>2000</baseCost>
     <techLevel>Archotech</techLevel>
     <prerequisites>
       <li>RTCore_Ultratech_Melee</li>
@@ -200,7 +351,7 @@
 		<li>MultiAnalyzer</li>
 	</requiredResearchFacilities>
     <researchViewX>5.0</researchViewX>
-    <researchViewY>0.7</researchViewY>
+    <researchViewY>1.4</researchViewY>
     <generalRules>
       <rulesStrings>
         <li>subject->archotech melee weapons</li>
