@@ -319,7 +319,7 @@
   <ResearchProjectDef>
     <defName>RTCore_Spacer_Crafting</defName>
     <label>spacer crafting</label>
-    <description>Craft general equipment on a powered table.</description>
+    <description>Craft general equipment on a workstation.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1000</baseCost>
     <techLevel>Spacer</techLevel>
@@ -335,7 +335,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->spacer crafting</li>
-        <li>subject_story->built a electronic table to craft their equipment.</li>
+        <li>subject_story->built a workstation to craft their equipment.</li>
         <li>subject_gerund->crafting general equipment of the space age</li>
       </rulesStrings>
     </generalRules>
@@ -430,7 +430,7 @@
   <ResearchProjectDef>
     <defName>RTCore_Ultratech_Crafting</defName>
     <label>ultratech crafting</label>
-    <description>Craft general equipment on a workstation.</description>
+    <description>Craft general equipment on a advanced workstation.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1250</baseCost>
     <techLevel>Ultra</techLevel>
@@ -446,7 +446,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->ultratech crafting</li>
-        <li>subject_story->built a workstation to craft their equipment.</li>
+        <li>subject_story->built a advanced workstation to craft their equipment.</li>
         <li>subject_gerund->crafting general equipment of the galactic age</li>
       </rulesStrings>
     </generalRules>
@@ -541,7 +541,7 @@
   <ResearchProjectDef>
     <defName>RTCore_Archotech_Crafting</defName>
     <label>archotech crafting</label>
-    <description>Craft general equipment on a advanced workstation.</description>
+    <description>Craft general equipment on a archotech workstation.</description>
 	<tab>RTCore_Research</tab>
     <baseCost>1500</baseCost>
     <techLevel>Archotech</techLevel>
@@ -560,7 +560,7 @@
     <generalRules>
       <rulesStrings>
         <li>subject->archotech crafting</li>
-        <li>subject_story->built a advanced workstation to craft their equipment.</li>
+        <li>subject_story->built a archotech workstation to craft their equipment.</li>
         <li>subject_gerund->crafting general equipment of the universal age</li>
       </rulesStrings>
     </generalRules>
