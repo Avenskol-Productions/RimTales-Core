@@ -100,6 +100,31 @@
     </generalRules>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>RTCore_Neolithic_Shields</defName>
+    <label>neolithic shields</label>
+    <description>Craft neolithic shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1250</baseCost>
+    <techLevel>Neolithic</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Neolithic_Crafting</li>
+    </hiddenPrerequisites>
+    <tags>
+      <li>ClassicStart</li>
+	  <li>TribalStart</li>
+    </tags>
+    <researchViewX>0.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->neolithic shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting neolithic shields</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
 <!--Medieval-->
 
   <ResearchProjectDef>
@@ -207,6 +232,33 @@
     </generalRules>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>RTCore_Medieval_Shields</defName>
+    <label>medieval shields</label>
+    <description>Craft medieval shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1500</baseCost>
+    <techLevel>Medieval</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Medieval_Crafting</li>
+    </hiddenPrerequisites>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Neolithic_Shields</li>
+    </prerequisites>
+    <researchViewX>1.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->medieval shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting medieval shields</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
 <!--Industrial-->
 
   <ResearchProjectDef>
@@ -310,6 +362,33 @@
         <li>subject->industrial ranged weapons</li>
         <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
         <li>subject_gerund->crafting industrial ranged weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RTCore_Industrial_Shields</defName>
+    <label>industrial shields</label>
+    <description>Craft industrial shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>1750</baseCost>
+    <techLevel>Industrial</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Industrial_Crafting</li>
+    </hiddenPrerequisites>
+	<tags>
+      <li>ClassicStart</li>
+    </tags>
+    <prerequisites>
+      <li>RTCore_Medieval_Shields</li>
+    </prerequisites>
+    <researchViewX>2.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->industrial shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting industrial shields</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
@@ -425,6 +504,34 @@
     </generalRules>
   </ResearchProjectDef>
 
+  <ResearchProjectDef>
+    <defName>RTCore_Spacer_Shields</defName>
+    <label>spacer shields</label>
+    <description>Craft modern shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Spacer_Crafting</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>RTCore_Industrial_Shields</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>3.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->spacer shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting spacer shields</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
 <!--Ultratech-->
 
   <ResearchProjectDef>
@@ -532,6 +639,34 @@
         <li>subject->ultratech ranged weapons</li>
         <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
         <li>subject_gerund->crafting ultratech ranged weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RTCore_Ultratech_Shields</defName>
+    <label>ultratech shields</label>
+    <description>Craft ultratech shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>2250</baseCost>
+    <techLevel>Ultra</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Ultratech_Crafting</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>RTCore_Spacer_Shields</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>4.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->ultratech shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting ultratech shields</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
@@ -648,6 +783,34 @@
         <li>subject->archotech ranged weapons</li>
         <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
         <li>subject_gerund->crafting archotech ranged weapons</li>
+      </rulesStrings>
+    </generalRules>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>RTCore_Archotech_Shields</defName>
+    <label>archotech shields</label>
+    <description>Craft archotech shields.</description>
+	<tab>RTCore_Research</tab>
+    <baseCost>2500</baseCost>
+    <techLevel>Archotech</techLevel>
+	<hiddenPrerequisites>
+      <li>RTCore_Archotech_Crafting</li>
+    </hiddenPrerequisites>
+    <prerequisites>
+      <li>RTCore_Ultratech_Shields</li>
+    </prerequisites>
+	<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+	<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+	</requiredResearchFacilities>
+    <researchViewX>5.0</researchViewX>
+    <researchViewY>2.8</researchViewY>
+    <generalRules>
+      <rulesStrings>
+        <li>subject->archotech shields</li>
+        <li>subject_story->made sure of their own protection in battle, in arms and armour.</li>
+        <li>subject_gerund->crafting archotech shields</li>
       </rulesStrings>
     </generalRules>
   </ResearchProjectDef>
