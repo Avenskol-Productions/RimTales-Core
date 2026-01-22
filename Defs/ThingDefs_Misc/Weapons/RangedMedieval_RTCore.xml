@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun" Name="Gun_BoltActionRifle">
+    <defName>RTCore_Gun_Handgonne</defName>
+    <label>handgonne</label>
+    <description>A classic hand cannon. Decent at midrange combat, but has a low fire rate.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+	<weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.80</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	  <recipeUsers>
+        <li>RTCore_CraftingSpot</li>
+        <li>RTCore_CraftingBench</li>
+        <li>RTCore_CraftingTable</li>
+        <li>RTCore_CraftingTablePowered</li>
+      </recipeUsers>
+      <displayPriority>60</displayPriority>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RTCore_Bullet_Handgonne</defaultProjectile>
+        <warmupTime>2.1</warmupTime>
+        <range>18</range>
+        <soundCast>RTCore_Shot_Handgonne</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>3</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>4</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RTCore_Bullet_Handgonne</defName>
+    <label>cannon ball</label>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <stoppingPower>3.0</stoppingPower>
+      <speed>70</speed>
+    </projectile>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+  </ThingDef>
+
+</Defs>
