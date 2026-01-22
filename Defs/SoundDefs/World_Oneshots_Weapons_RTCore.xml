@@ -8,7 +8,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Folder">
-            <clipPath>Weapons/Handgonne</clipPath>
+            <clipPath>Weapon/Handgonne</clipPath>
           </li>
         </grains>
         <pitchRange>0.9770592~1.114706</pitchRange>      
