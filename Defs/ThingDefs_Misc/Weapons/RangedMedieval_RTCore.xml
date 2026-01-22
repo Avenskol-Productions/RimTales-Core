@@ -27,7 +27,8 @@
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <recipeMaker>
-      <skillRequirements>
+      <researchPrerequisite>RTCore_Medieval_Ranged</researchPrerequisite>
+	  <skillRequirements>
         <Crafting>5</Crafting>
       </skillRequirements>
 	  <recipeUsers>
