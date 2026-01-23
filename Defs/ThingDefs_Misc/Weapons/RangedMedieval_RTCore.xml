@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BaseHumanMakeableGun" Name="Gun_BoltActionRifle">
+  <ThingDef ParentName="RTCore_BaseHumanMakeableGun">
     <defName>RTCore_Gun_Handgonne</defName>
     <label>handgonne</label>
     <description>A classic hand cannon. Decent at midrange combat, but has a low fire rate.</description>
@@ -23,20 +23,14 @@
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>60</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <Steel>30</Steel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <recipeMaker>
       <researchPrerequisite>RTCore_Medieval_Ranged</researchPrerequisite>
 	  <skillRequirements>
-        <Crafting>5</Crafting>
+        <Crafting>3</Crafting>
       </skillRequirements>
-	  <recipeUsers>
-        <li>RTCore_CraftingSpot</li>
-        <li>RTCore_CraftingBench</li>
-        <li>RTCore_CraftingTable</li>
-        <li>RTCore_CraftingTablePowered</li>
-      </recipeUsers>
       <displayPriority>60</displayPriority>
     </recipeMaker>
     <verbs>
