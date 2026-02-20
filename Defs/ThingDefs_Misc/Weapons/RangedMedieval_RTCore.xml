@@ -6,7 +6,7 @@
     <label>handgonne</label>
     <description>A classic hand cannon. Decent at midrange combat, but has a low fire rate.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BoltActionRifle</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/RTCore_Handgonne</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
