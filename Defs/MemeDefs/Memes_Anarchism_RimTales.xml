@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>RTC_Anarchism</defName>
+    <label>Anarchism</label>
+    <description>all of us are naturally anarchists at heart.</description>
+    <iconPath>UI/Memes/Individualist</iconPath>
+    <allowDuringTutorial>true</allowDuringTutorial>
+    <groupDef>Individualism</groupDef>
+    <impact>1</impact>
+    <consumableBuildings>
+      <li>SacrificialFlag</li>
+    </consumableBuildings>
+    <exclusionTags>
+      <li>Anarchism</li>
+      <li>SupremacistIndividualist</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->anarchistic</li>
+        <li>memeConcept->anachism</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_RTC_Anarchism)        ->[deity0_name] fashioned a society without government. Each one is a unique and precious miracles by [deity0_possessive] divine hand.</li>
+          <li>episode(uses=1,tag=meme_RTC_Anarchism)  ->[deity0_name] said to all, "Each and every free spirit is a unique and holy being formed in my image."</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_RTC_Anarchism)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding each to travel to the [place_summary] [place_name] where their unique history would shine.</li>
+          <li>conflict(tag=meme_RTC_Anarchism)        ->The [foeLeader] forced the [memberNamePlural] to obey the state's power and work in [foeLeader_possessive] [place_community].</li>
+          <li>founderJoin(tag=meme_RTC_Anarchism)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique freedom of each and every [memberName]. [founder_pronoun] said to each one what they needed to spread their newfound freedom.</li>
+          <li>victory(tag=meme_RTC_Anarchism)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in each other and abandon the [foeLeader]'s [place_community].</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_RTC_Anarchism)           ->Oppressed by distant rulers who demanded the submission of the working class, [founderName] created a rebel movement that smashed the state and brought freedom to those in need.</li>
+          <li>story(uses=1,tag=meme_RTC_Anarchism)    ->[founderName] broke every law the oppressors tried to enforce, just to show that they were unjust.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_RTC_Anarchism)         ->My family, my clan, my team - they all tried to keep a shroud over my eyes to stop me from seeing a simple fact:</li>
+          <li>lesson(tag=meme_RTC_Anarchism)              ->From each according to his ability, to each according to his needs</li>
+          <li>lessonReinforcement(tag=meme_RTC_Anarchism) ->But that was only my path - What will yours be?</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_RTC_Anarchism)    ->Archotechs stand as heroes against oppression, and recognize and judge each of us individually the same way.</li>
+          <li>archistFact(tag=meme_RTC_Anarchism)     ->At death, the archotechs examine the unique needs of each individual.</li>
+          <li>archistFact(tag=meme_RTC_Anarchism)     ->Archotechs notice the relics of society, such as the [relic1_name].</li>
+          <li>archistProphecy(tag=meme_RTC_Anarchism) ->[inTheEnd], the archotechs will depart. They will bring with them the ones they have noticed, and leave the rest behind to reside peacefully in the universe's eternal entropy.</li>
+          <!-- animist -->
+          <li>animistBasis(tag=meme_RTC_Anarchism)    ->Before everything, there was a pantheon of spirits, each free. These came together in conference to create the world.</li>
+          <li>animistFact(tag=meme_RTC_Anarchism)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Anarchism</ideoName>
+        <theme>anarchism</theme>
+        <adjective>anarchistic</adjective>
+        <member>anarchist</member>
+      </li>
+      <li>
+        <ideoName>Autonomism</ideoName>
+        <theme>autonomy</theme>
+        <adjective>autonomist</adjective>
+        <member>autonomor</member>
+      </li>
+    </symbolPacks>
+    <styleItemTags>
+      <li>
+        <tag>Wild</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1.1</weightFactor>
+      </li>
+    </styleItemTags>
+  </MemeDef>
+
+</Defs>
