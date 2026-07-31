@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Child-->
+
+	<BackstoryDef>
+		<defName>RTC_SpecialistBorn</defName>
+			<slot>Childhood</slot>
+			<title>specialist youth</title>
+			<titleShort>specialist youth</titleShort>
+			<description>[PAWN_nameDef] was born and employed into [PAWN_possessive] local job. [PAWN_pronoun] carried [PAWN_objective]self with dignity and confidence throughout [PAWN_objective] youth.</description>
+			<skillGains>
+				<Construction>2</Construction>
+				<Mining>2</Mining>
+				<Cooking>2</Cooking>
+				<Plants>2</Plants>
+				<Animals>2</Animals>
+				<Crafting>2</Crafting>
+				<Artistic>2</Artistic>
+				<Medicine>2</Medicine>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<!--Mature-->
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Construction</defName>
+			<slot>Adulthood</slot>
+			<title>construction specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local construction job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Construction>11</Construction>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Mining</defName>
+			<slot>Adulthood</slot>
+			<title>mining specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local mining job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Mining>11</Mining>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Cooking</defName>
+			<slot>Adulthood</slot>
+			<title>cooking specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local cooking job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Cooking>11</Cooking>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Plants</defName>
+			<slot>Adulthood</slot>
+			<title>farming specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local farming job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Plants>11</Plants>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Animals</defName>
+			<slot>Adulthood</slot>
+			<title>cattle specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local cattle job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Animals>11</Animals>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Crafting</defName>
+			<slot>Adulthood</slot>
+			<title>crafts specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local crafting job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Crafting>11</Crafting>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Artistic</defName>
+			<slot>Adulthood</slot>
+			<title>artistry specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local artistry job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Artistic>11</Artistic>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Medicine</defName>
+			<slot>Adulthood</slot>
+			<title>medical specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local medical job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Medicine>11</Medicine>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Social</defName>
+			<slot>Adulthood</slot>
+			<title>diplomatic specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local diplomatic job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Social>11</Social>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Specialist_Intellectual</defName>
+			<slot>Adulthood</slot>
+			<title>science specialist</title>
+			<titleShort>specialist</titleShort>
+			<description>[PAWN_nameDef] joined as a specialist of the local science job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Intellectual>11</Intellectual>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Specialist</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+</Defs>

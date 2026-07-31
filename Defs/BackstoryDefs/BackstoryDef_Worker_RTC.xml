@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Child-->
+
+	<BackstoryDef>
+		<defName>RTC_WorkerBorn</defName>
+			<slot>Childhood</slot>
+			<title>worker youth</title>
+			<titleShort>worker youth</titleShort>
+			<description>[PAWN_nameDef] was born and employed into [PAWN_possessive] local job. [PAWN_pronoun] carried [PAWN_objective]self with dignity and confidence throughout [PAWN_objective] youth.</description>
+			<skillGains>
+				<Construction>1</Construction>
+				<Mining>1</Mining>
+				<Cooking>1</Cooking>
+				<Plants>1</Plants>
+				<Animals>1</Animals>
+				<Crafting>1</Crafting>
+				<Artistic>1</Artistic>
+				<Medicine>1</Medicine>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<!--Mature-->
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Guard</defName>
+			<slot>Adulthood</slot>
+			<title>militia guard</title>
+			<titleShort>guard</titleShort>
+			<description>[PAWN_nameDef] joined as a guard of the local militia. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Construction>6</Construction>
+				<Shooting>2</Shooting>
+				<Melee>3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Guard_Captain</defName>
+			<slot>Adulthood</slot>
+			<title>militia guard captain</title>
+			<titleShort>guard captain</titleShort>
+			<description>[PAWN_nameDef] has risen from [PAWN_possessive] militia guard's ranks. [PAWN_possessive] accomplishments within the job are of exceptional quality.</description>
+			<skillGains>
+				<Construction>12</Construction>
+				<Shooting>4</Shooting>
+				<Melee>6</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Construction</defName>
+			<slot>Adulthood</slot>
+			<title>construction worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local construction job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Construction>6</Construction>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Mining</defName>
+			<slot>Adulthood</slot>
+			<title>mining worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local mining job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Mining>6</Mining>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Cooking</defName>
+			<slot>Adulthood</slot>
+			<title>cooking worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local cooking job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Cooking>6</Cooking>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Plants</defName>
+			<slot>Adulthood</slot>
+			<title>farming worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local farming job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Plants>6</Plants>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Animals</defName>
+			<slot>Adulthood</slot>
+			<title>cattle worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local cattle job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Animals>6</Animals>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Crafting</defName>
+			<slot>Adulthood</slot>
+			<title>crafts worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local crafting job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Crafting>6</Crafting>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Artistic</defName>
+			<slot>Adulthood</slot>
+			<title>artistry worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local artistry job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Artistic>6</Artistic>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Worker_Medicine</defName>
+			<slot>Adulthood</slot>
+			<title>medical worker</title>
+			<titleShort>worker</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local medical job. [PAWN_possessive] accomplishments within the job are of relative quality.</description>
+			<skillGains>
+				<Medicine>6</Medicine>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Worker</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+</Defs>

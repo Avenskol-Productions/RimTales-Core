@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Child-->
+
+	<BackstoryDef>
+		<defName>RTC_CouncilBorn</defName>
+			<slot>Childhood</slot>
+			<title>council youth</title>
+			<titleShort>council youth</titleShort>
+			<description>[PAWN_nameDef] was born and inducted into [PAWN_possessive] local council. [PAWN_pronoun] carried [PAWN_objective]self with dignity and confidence throughout [PAWN_objective] youth.</description>
+			<skillGains>
+				<Social>6</Social>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Council</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<!--Mature-->
+
+	<BackstoryDef>
+		<defName>RTC_Council_Guard</defName>
+			<slot>Adulthood</slot>
+			<title>council guard</title>
+			<titleShort>guard</titleShort>
+			<description>[PAWN_nameDef] joined as a guard of the local council. [PAWN_possessive] accomplishments within the council are of relative quality.</description>
+			<skillGains>
+				<Social>-6</Social>
+				<Shooting>2</Shooting>
+				<Melee>3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Council</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Council_Guard_Captain</defName>
+			<slot>Adulthood</slot>
+			<title>council guard captain</title>
+			<titleShort>guard captain</titleShort>
+			<description>[PAWN_nameDef] has risen from [PAWN_possessive] council's guard's ranks. [PAWN_possessive] accomplishments within the council are of exceptional quality.</description>
+			<skillGains>
+				<Social>-12</Social>
+				<Shooting>4</Shooting>
+				<Melee>6</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Council</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Councilor</defName>
+			<slot>Adulthood</slot>
+			<title>councilor</title>
+			<titleShort>councilor</titleShort>
+			<description>[PAWN_nameDef] joined as a member of the local council. [PAWN_possessive] accomplishments within the council are of relative quality.</description>
+			<skillGains>
+				<Social>6</Social>
+				<Shooting>-2</Shooting>
+				<Melee>-3</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Council</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Councilor_High</defName>
+			<slot>Adulthood</slot>
+			<title>high councilor</title>
+			<titleShort>high councilor</titleShort>
+			<description>[PAWN_nameDef] has risen from [PAWN_possessive] council's ranks. [PAWN_possessive] accomplishments within the council are of exceptional quality.</description>
+			<skillGains>
+				<Social>12</Social>
+				<Shooting>-4</Shooting>
+				<Melee>-6</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Council</li>
+			</spawnCategories>
+			<workDisables>ManualDumb</workDisables>
+	</BackstoryDef>
+
+</Defs>

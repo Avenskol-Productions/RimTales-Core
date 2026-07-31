@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!--Child-->
+
+	<BackstoryDef>
+		<defName>RTC_MilitaryBorn</defName>
+			<slot>Childhood</slot>
+			<title>military youth</title>
+			<titleShort>military youth</titleShort>
+			<description>[PAWN_nameDef] was born and recruited into [PAWN_possessive] local military. [PAWN_pronoun] carried [PAWN_objective]self with honour and loyalty throughout [PAWN_objective] youth.</description>
+			<skillGains>
+				<Shooting>5</Shooting>
+				<Melee>6</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Military</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<!--Mature-->
+
+	<BackstoryDef>
+		<defName>RTC_Military_Guard</defName>
+			<slot>Adulthood</slot>
+			<title>military guard</title>
+			<titleShort>guard</titleShort>
+			<description>[PAWN_nameDef] joined as a guard of the local military. [PAWN_possessive] accomplishments within the military are of relative quality.</description>
+			<skillGains>
+				<Shooting>5</Shooting>
+				<Melee>6</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Military</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Military_Guard_Captain</defName>
+			<slot>Adulthood</slot>
+			<title>military captain</title>
+			<titleShort>military captain</titleShort>
+			<description>[PAWN_nameDef] has risen from [PAWN_possessive] military's guard's ranks. [PAWN_possessive] accomplishments within the military are of exceptional quality.</description>
+			<skillGains>
+				<Shooting>10</Shooting>
+				<Melee>12</Melee>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Military</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Military_Officer</defName>
+			<slot>Adulthood</slot>
+			<title>military officer</title>
+			<titleShort>officer</titleShort>
+			<description>[PAWN_nameDef] joined as a officer of the local military. [PAWN_possessive] accomplishments within the military are of relative quality.</description>
+			<skillGains>
+				<Social>6</Social>
+				<Shooting>5</Shooting>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Military</li>
+			</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>RTC_Military_Officer_High</defName>
+			<slot>Adulthood</slot>
+			<title>high military officer</title>
+			<titleShort>high officer</titleShort>
+			<description>[PAWN_nameDef] has risen from [PAWN_possessive] military's ranks. [PAWN_possessive] accomplishments within the military are of exceptional quality.</description>
+			<skillGains>
+				<Social>12</Social>
+				<Shooting>10</Shooting>
+			</skillGains>
+			<spawnCategories>
+				<li>RTC_Military</li>
+			</spawnCategories>
+			<workDisables>ManualDumb</workDisables>
+	</BackstoryDef>
+
+</Defs>
