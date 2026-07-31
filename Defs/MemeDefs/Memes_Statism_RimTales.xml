@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>RTC_Statism</defName>
+    <label>Statism</label>
+    <description>To serve the state is to serve the world.</description>
+    <iconPath>UI/Memes/Collectivist</iconPath>
+    <allowDuringTutorial>true</allowDuringTutorial>
+    <groupDef>Individualism</groupDef>
+    <impact>1</impact>
+    <exclusionTags>
+      <li>Anarchism</li>
+      <li>GroupRelation</li>
+      <li>Statism</li>
+    </exclusionTags>
+    <requireOne>
+      <li>
+        <li>RTC_Charity_Disliked</li>
+      </li>
+      <li>
+        <li>RTC_Charity_Despised</li>
+      </li>
+      <li>
+        <li>RTC_Charity_Abhorrent</li>
+      </li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->statistic</li>
+        <li>memeConcept->statism</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_RTC_Statism)        ->[deity0_name] fashioned a state of government. Each one is a unique and precious miracles by [deity0_possessive] divine hand.</li>
+          <li>episode(uses=1,tag=meme_RTC_Statism)  ->[deity0_name] said to all, "Each and every free country is a unique and holy being formed in my image."</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_RTC_Statism)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding them to travel to the [place_summary] [place_name] where it's unique history would shine.</li>
+          <li>conflict(tag=meme_RTC_Statism)        ->The [foeLeader] forced the [memberNamePlural] to break the state's laws.</li>
+          <li>founderJoin(tag=meme_RTC_Statism)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique authority over each and every [memberName]. [founder_pronoun] said to each one what they needed to spread their newfound freedom.</li>
+          <li>victory(tag=meme_RTC_Statism)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in the state.</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_RTC_Statism)           ->Once living in a lawless system, [founderName] created a nationalist movement that brought authority to the land.</li>
+          <li>story(uses=1,tag=meme_RTC_Statism)    ->[founderName] passed a number of laws enforced upon the working class.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_RTC_Statism)         ->[place_job] [founderName] raised [place_personalWeapon] to [foeLeader]'s head' killing them with it.</li>
+          <li>lesson(tag=meme_RTC_Statism)              ->you will now serve the state or you will die like the lawless [foeSoldiers]</li>
+          <li>lessonReinforcement(tag=meme_RTC_Statism) ->If I die knowing the state will fall, then I would have lived for nothing.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_RTC_Statism)    ->Archotechs stand as beacons of authority, and recognize and judge our nation the same way.</li>
+          <li>archistFact(tag=meme_RTC_Statism)     ->At death, the archotechs examine the unique power of the state.</li>
+          <li>archistFact(tag=meme_RTC_Statism)     ->Archotechs notice the relics of the state, such as the [relic1_name].</li>
+          <li>archistProphecy(tag=meme_RTC_Statism) ->[inTheEnd], the archotechs will depart. They will bring with them the nations they have noticed, and leave the rest behind to reside forever to grow in strength.</li>
+          <!-- animist -->
+          <li>animistBasis(tag=meme_RTC_Statism)    ->Before everything, there was a pantheon of spirits, each demanding. These came together in conference to create the world.</li>
+          <li>animistFact(tag=meme_RTC_Statism)     ->Every spirit lends its unique nature to our world, and they expect our nation to do the same.</li>
+          <!--Vanilla Expanded Ideology Memes-->
+          <!-- serketist -->
+          <li>serketistProphecy(tag=meme_RTC_Statism)->[itIsSaid] we will learn from them, and use that knowledge to control the universe.</li>
+					<!-- eldritch / chthonian -->
+					<li>chthonianProphecy(tag=meme_RTC_Statism)->We will acquire their eldritch knowledge, and use it to control the universe.</li>
+					<!-- esoteric -->
+					<li>esotericismProphecy(tag=meme_RTC_Statism)->With such knowledge, we will have a clear advantage over the rest of this planet's inhabitants, and use it to control it.</li>
+					<!-- eschatologism -->
+					<li>eschatologismFact(tag=meme_RTC_Statism)->There will be nothing left. But together we will rebuild our nation from the ground up.</li>
+					<!-- corporate -->
+					<li>introMemo(tag=meme_RTC_Statism)->As you know, the mission of our Company is way too important to let others get in our way, so we are preparing to pass more laws.</li>
+					<!-- alienist -->
+					<li>alienistProphecy(tag=meme_RTC_Statism)->We need to spread by force the reality of our nation, seeded by humanity through all the Rim.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Capitalism</ideoName>
+        <theme>capitalism</theme>
+        <adjective>capitalistic</adjective>
+        <member>capitalist</member>
+      </li>
+      <li>
+        <ideoName>Monarchism</ideoName>
+        <theme>monarchism</theme>
+        <adjective>monarchistic</adjective>
+        <member>monarchist</member>
+      </li>
+      <li>
+        <ideoName>Statism</ideoName>
+        <theme>statism</theme>
+        <adjective>statistic</adjective>
+        <member>statist</member>
+      </li>
+    </symbolPacks>
+    <styleItemTags>
+      <li>
+        <tag>Wild</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1.1</weightFactor>
+      </li>
+    </styleItemTags>
+  </MemeDef>
+
+</Defs>

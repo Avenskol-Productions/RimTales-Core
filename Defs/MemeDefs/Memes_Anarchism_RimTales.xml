@@ -4,7 +4,7 @@
   <MemeDef>
     <defName>RTC_Anarchism</defName>
     <label>Anarchism</label>
-    <description>all of us are naturally anarchists at heart.</description>
+    <description>All of us are naturally anarchists at heart.</description>
     <iconPath>UI/Memes/Individualist</iconPath>
     <allowDuringTutorial>true</allowDuringTutorial>
     <groupDef>Individualism</groupDef>
@@ -14,8 +14,9 @@
     </consumableBuildings>
     <exclusionTags>
       <li>Anarchism</li>
+      <li>Fascism</li>
       <li>GroupRelation</li>
-      <li>RTC_Fascism</li>
+      <li>Statism</li>
       <li>VME_GodEmperor</li>
     </exclusionTags>
     <requireOne>
