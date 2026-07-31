@@ -164,7 +164,7 @@
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_Pilgrims_Betrayed</eventDef>
         <thought>RTC_CharityRefused_Despised_Pilgrims_Betrayed</thought>
-        <removesThought>CharityRefused_Despised_Pilgrims</removesThought>
+        <removesThought>RTC_CharityRefused_Despised_Pilgrims</removesThought>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_WandererJoins</eventDef>
@@ -246,7 +246,7 @@
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_Beggars_Betrayed</eventDef>
         <thought>RTC_CharityRefused_Disliked_Beggars_Betrayed</thought>
-        <removesThought>CharityFulfilled_Disliked_Beggars</removesThought>
+        <removesThought>RTC_CharityFulfilled_Disliked_Beggars</removesThought>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_Pilgrims</eventDef>
@@ -255,7 +255,7 @@
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_Pilgrims_Betrayed</eventDef>
         <thought>RTC_CharityRefused_Disliked_Pilgrims_Betrayed</thought>
-        <removesThought>CharityRefused_Disliked_Pilgrims</removesThought>
+        <removesThought>RTC_CharityRefused_Disliked_Pilgrims</removesThought>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>CharityRefused_WandererJoins</eventDef>
