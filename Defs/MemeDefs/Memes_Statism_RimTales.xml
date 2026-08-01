@@ -16,11 +16,7 @@
     <requireOne>
       <li>
         <li>RTC_Charity_Disliked</li>
-      </li>
-      <li>
         <li>RTC_Charity_Despised</li>
-      </li>
-      <li>
         <li>RTC_Charity_Abhorrent</li>
       </li>
     </requireOne>

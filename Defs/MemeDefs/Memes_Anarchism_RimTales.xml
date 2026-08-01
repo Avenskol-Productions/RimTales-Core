@@ -22,11 +22,7 @@
     <requireOne>
       <li>
         <li>Charity_Important</li>
-      </li>
-      <li>
         <li>Charity_Essential</li>
-      </li>
-      <li>
         <li>Charity_Worthwhile</li>
       </li>
     </requireOne>
