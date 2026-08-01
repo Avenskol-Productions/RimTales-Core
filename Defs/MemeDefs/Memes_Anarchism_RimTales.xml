@@ -84,14 +84,118 @@
       <li>
         <ideoName>Autonomism</ideoName>
         <theme>autonomy</theme>
-        <adjective>autonomist</adjective>
-        <member>autonomor</member>
+        <adjective>autonomistic</adjective>
+        <member>autonomist</member>
       </li>
       <li>
         <ideoName>Libertarianism</ideoName>
         <theme>libertarianism</theme>
         <adjective>libertarianistic</adjective>
         <member>libertarian</member>
+      </li>
+    </symbolPacks>
+    <styleItemTags>
+      <li>
+        <tag>Wild</tag>
+        <baseWeight>1</baseWeight>
+        <weightFactor>1.1</weightFactor>
+      </li>
+    </styleItemTags>
+  </MemeDef>
+
+  <MemeDef>
+    <defName>RTC_Syndicalism</defName>
+    <label>Syndicalism</label>
+    <description>In Labor movements generally, success through violence can hardly be expected except in circumstances where success without violence is attainable.</description>
+    <iconPath>UI/Memes/Individualist</iconPath>
+    <allowDuringTutorial>true</allowDuringTutorial>
+    <groupDef>Individualism</groupDef>
+    <impact>1</impact>
+    <consumableBuildings>
+      <li>SacrificialFlag</li>
+    </consumableBuildings>
+    <exclusionTags>
+      <li>Anarchism</li>
+      <li>Fascism</li>
+      <li>GroupRelation</li>
+      <li>Statism</li>
+      <li>VME_GodEmperor</li>
+    </exclusionTags>
+    <requireOne>
+      <li>
+        <li>Charity_Important</li>
+        <li>Charity_Essential</li>
+        <li>Charity_Worthwhile</li>
+      </li>
+    </requireOne>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->Syndicalistic</li>
+        <li>memeConcept->syndicalism</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_RTC_Syndicalism)        ->[deity0_name] fashioned a society without government. Each one is a unique and precious miracles by [deity0_possessive] divine hand.</li>
+          <li>episode(uses=1,tag=meme_RTC_Syndicalism)  ->[deity0_name] said to all, "Each and every free spirit is a unique and holy being formed in my image."</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_RTC_Syndicalism)           ->[deity0_name] spoke to [memberNamePlural] [revelationAdverb], guiding each to travel to the [place_summary] [place_name] where their unique history would shine.</li>
+          <li>conflict(tag=meme_RTC_Syndicalism)        ->The [foeLeader] forced the [memberNamePlural] to obey the state's power and work in [foeLeader_possessive] [place_community].</li>
+          <li>founderJoin(tag=meme_RTC_Syndicalism)     ->A [place_job] named [founderName] was blessed by [deity0_name] and gained miraculous knowledge of the unique freedom of each and every [memberName]. [founder_pronoun] said to each one what they needed to spread their newfound freedom.</li>
+          <li>victory(tag=meme_RTC_Syndicalism)         ->The [memberNamePlural] gathered in a secret conference with many of the [foeSoldiers]. They all learned to see the value in each other and abandon the [foeLeader]'s [place_community].</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_RTC_Syndicalism)           ->Oppressed by distant rulers who demanded the submission of the working class, [founderName] created a rebel movement that smashed the state and brought freedom to those in need.</li>
+          <li>story(uses=1,tag=meme_RTC_Syndicalism)    ->[founderName] broke every law the oppressors tried to enforce, just to show that they were unjust.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_RTC_Syndicalism)         ->My family, my clan, my team - they all tried to keep a shroud over my eyes to stop me from seeing a simple fact:</li>
+          <li>lesson(tag=meme_RTC_Syndicalism)              ->"One who is constantly striving to force everything into a mechanical order at last becomes a machine himself and loses all human feeling"</li>
+          <li>lesson(tag=meme_RTC_Syndicalism)              ->"The Anarcho-Syndicalists know that wars are only waged in the interest of the ruling classes; they believe, therefore, that any means is justifiable that can prevent the organized murder of peoples"</li>
+          <li>lesson(tag=meme_RTC_Syndicalism)              ->"The urge for social justice can only develop properly and be effective when it grows out of man's sense of personal freedom and is based on that. In other words Socialism will be free or it will not be at all"</li>
+          <li>lessonReinforcement(tag=meme_RTC_Syndicalism) ->But that was only my path - What will yours be?</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_RTC_Syndicalism)    ->Archotechs stand as heroes against oppression, and recognize and judge each of us individually the same way.</li>
+          <li>archistFact(tag=meme_RTC_Syndicalism)     ->At death, the archotechs examine the unique needs of each individual.</li>
+          <li>archistFact(tag=meme_RTC_Syndicalism)     ->Archotechs notice the relics of society, such as the [relic1_name].</li>
+          <li>archistProphecy(tag=meme_RTC_Syndicalism) ->[inTheEnd], the archotechs will depart. They will bring with them the ones they have noticed, and leave the rest behind to reside peacefully in the universe's eternal entropy.</li>
+          <!-- animist -->
+          <li>animistBasis(tag=meme_RTC_Syndicalism)    ->Before everything, there was a pantheon of spirits, each free. These came together in conference to create the world.</li>
+          <li>animistFact(tag=meme_RTC_Syndicalism)     ->Every spirit lends its unique nature to our world, and they expect us to do the same.</li>
+          <!--Vanilla Expanded Ideology Memes-->
+          <!-- serketist -->
+          <li>serketistProphecy(tag=meme_RTC_Syndicalism)->[itIsSaid] we will learn from them, and use that knowledge to unification the universe.</li>
+					<!-- eldritch / chthonian -->
+					<li>chthonianProphecy(tag=meme_RTC_Syndicalism)->We will acquire their eldritch knowledge, and use it to bring unification the universe.</li>
+					<!-- esoteric -->
+					<li>esotericismProphecy(tag=meme_RTC_Syndicalism)->With such knowledge, we will have a clear advantage over the rest of this planet's inhabitants, and use it to unification it.</li>
+					<!-- eschatologism -->
+					<li>eschatologismFact(tag=meme_RTC_Syndicalism)->There will be nothing left. But together we will rebuild society from the ground up.</li>
+					<!-- corporate -->
+					<li>introMemo(tag=meme_RTC_Syndicalism)->As you know, the mission of our Company is way too important to let others get in our way, so we are preparing to gather our resources for the betterment of our people.</li>
+					<!-- alienist -->
+					<li>alienistProphecy(tag=meme_RTC_Syndicalism)->We need to spread by reason the reality of life, seeded by humanity through all the Rim.</li>
+        </rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Anarchism</ideoName>
+        <theme>anarchism</theme>
+        <adjective>anarchistic</adjective>
+        <member>anarchist</member>
+      </li>
+      <li>
+        <ideoName>Autonomism</ideoName>
+        <theme>autonomy</theme>
+        <adjective>autonomistic</adjective>
+        <member>autonomist</member>
+      </li>
+      <li>
+        <ideoName>Syndicalism</ideoName>
+        <theme>syndicalism</theme>
+        <adjective>syndicalistic</adjective>
+        <member>syndicalist</member>
       </li>
     </symbolPacks>
     <styleItemTags>
