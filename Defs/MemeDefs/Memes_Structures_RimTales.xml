@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>RTC_Structure_Order</defName>
+    <label>order</label>
+    <description>There are no gods. The moral structure of the universe is found in our grand narrative of social forces.</description>
+    <category>Structure</category>
+    <groupDef>Theist_Embodied</groupDef>
+    <iconPath>UI/Structures/Structure_Ideological</iconPath>
+    <impact>0</impact>
+    <worshipRoomLabel>sanctum</worshipRoomLabel>
+    <randomizationSelectionWeightFactor>5</randomizationSelectionWeightFactor>
+    <deityCount>1~4</deityCount>
+    <consumableBuildings>
+      <li>SacrificialFlag</li>
+    </consumableBuildings>
+    <renderOrder>-1</renderOrder>
+    <generalRules>
+      <rulesStrings>
+        <li>memeCreed->order</li>
+        <li>memeHyphenPrefix->systematic</li>
+        <li>memeConcept->order</li>
+        <li>memeLeaderNoun->system</li>
+        <li>memeLeaderNoun->method</li>
+        <li>memeLeaderNoun->organization</li>
+        <li>memeLeaderNoun->leader</li>
+        <li>memeLeaderAdjective->oderly</li>
+        <li>memeLeaderAdjective->organized</li>
+        <li>memeLeaderAdjective->methodical</li>
+        <li>memeLeaderAdjective->systematic</li>
+        <li>memeMoralist->keeper</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <patterns>
+        <li>
+          <def>TheistFounder</def>
+          <weight>1</weight>
+        </li>
+        <li>
+          <def>IdeologicalLesson</def>
+          <weight>3</weight>
+        </li>
+      </patterns>
+      <constants>
+        <li><key>structure_theist</key><value>true</value></li>
+        <li><key>structure_theistEmbodied</key><value>true</value></li>
+      </constants>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Order</ideoName>
+        <theme>order</theme>
+        <adjective>orderly</adjective>
+        <member>member</member>
+      </li>
+    </symbolPacks>
+  </MemeDef>
+
+</Defs>
