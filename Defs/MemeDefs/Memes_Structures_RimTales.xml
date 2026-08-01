@@ -25,7 +25,7 @@
         <li>memeLeaderNoun->method</li>
         <li>memeLeaderNoun->organization</li>
         <li>memeLeaderNoun->leader</li>
-        <li>memeLeaderAdjective->oderly</li>
+        <li>memeLeaderAdjective->orderly</li>
         <li>memeLeaderAdjective->organized</li>
         <li>memeLeaderAdjective->methodical</li>
         <li>memeLeaderAdjective->systematic</li>
@@ -35,12 +35,8 @@
     <descriptionMaker>
       <patterns>
         <li>
-          <def>TheistFounder</def>
+          <def>RTC_OrderFounder</def>
           <weight>1</weight>
-        </li>
-        <li>
-          <def>IdeologicalLesson</def>
-          <weight>3</weight>
         </li>
       </patterns>
       <constants>

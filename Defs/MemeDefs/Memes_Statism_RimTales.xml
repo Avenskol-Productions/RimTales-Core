@@ -41,7 +41,7 @@
           <li>setup(tag=meme_RTC_Statism)           ->Once living in a lawless system, [founderName] created a nationalist movement that brought authority to the land.</li>
           <li>story(uses=1,tag=meme_RTC_Statism)    ->[founderName] passed a number of laws enforced upon the working class.</li>
           <!-- ideological lesson -->
-          <li>lessonIntro(tag=meme_RTC_Statism)         ->[place_job] [founderName] raised [place_personalWeapon] to [foeLeader]'s head' killing them with it.</li>
+          <li>lessonIntro(tag=meme_RTC_Statism)         ->[place_job] [founderName] raised a [place_personalWeapon] to [foeLeader]'s head killing them.</li>
           <li>lesson(tag=meme_RTC_Statism)              ->you will now serve the state or you will die like the lawless [foeSoldiers]</li>
           <li>lessonReinforcement(tag=meme_RTC_Statism) ->If I die knowing the state will fall, then I would have lived for nothing.</li>
           <!-- archist -->
