@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MemeDef>
+    <defName>RTC_AncientPrimacy</defName>
+    <label>Ancient primacy</label>
+    <description>The Ancients should be respected with high reasoning.</description>
+    <iconPath>UI/Memes/PrimacyHuman</iconPath>
+    <groupDef>Primacy</groupDef>
+    <impact>2</impact>
+    <renderOrder>50</renderOrder>
+    <veneratedAnimalsCountOverride>0</veneratedAnimalsCountOverride>
+    <consumableBuildings>
+      <li>Effigy</li>
+    </consumableBuildings>
+    <exclusionTags>
+      <li>Primacy</li>
+    </exclusionTags>
+    <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->ancient</li>
+        <li>memeAdjective->prehistoric</li>
+        <li>memeAdjective->primeval</li>
+        <li>memeAdjective->primordial</li>
+        <li>memeAdjective->antediluvian</li>
+        <li>memeHyphenPrefix->paleo</li>
+        <li>memeHyphenPrefix->archaeo</li>
+        <li>memeHyphenPrefix->antique</li>
+        <li>memeConcept->arche</li>
+        <li>memeConcept->logos</li>
+        <li>memeConcept->eudaimonia</li>
+        <li>memeConcept->four elements</li>
+        <li>memeConcept->primordial chaos</li>
+        <li>memeConcept->fate vs free will</li>
+        <li>memeConcept->animism</li>
+        <li>memeLeaderNoun->ancient</li>
+        <li>memeLeaderNoun->antique</li>
+        <li>memeLeaderNoun->archaic</li>
+        <li>memeLeaderNoun->venerable</li>
+        <li>memeLeaderNoun->classical</li>
+      </rulesStrings>
+    </generalRules>
+    <descriptionMaker>
+      <rules>
+        <rulesStrings>
+          <!-- theist myth -->
+          <li>creation(tag=meme_RTC_AncientPrimacy)        ->[deity0_name] created all of nature, and gave it to man as a gift, to serve the ancients and their purposes forever.</li>
+          <li>episode(uses=1,tag=meme_RTC_AncientPrimacy)  ->The ancients fought with the beasts of the forest, and [deity0_name] saw their struggle, and gave them weapons to control nature.</li>
+          <!-- theist founder -->
+          <li>intro(tag=meme_RTC_AncientPrimacy)           ->The first ancients of the [place_summary] [place_name] were beset by manhunting [Animal]s. [deity0_name] intervened, slaying the beasts and making clear [deity0_possessive] preference for the ancients.</li>
+          <li>conflict(tag=meme_RTC_AncientPrimacy)        ->An anti-ancient [foeLeader] made an edict punishing the ancients. [deity0_name] wept as the [memberNamePlural] were slaughtered by the [foeSoldiers].</li>
+          <li>founderJoin(tag=meme_RTC_AncientPrimacy)     ->A [place_job] named [foeLeader] founded [place_name]. [foeSoldiers] used corrupt demonstrations to force visitors to hear lies about [deity0_name]'s desire to rule over existence.</li>
+          <li>victory(tag=meme_RTC_AncientPrimacy)         ->Because of [foeLeader]'s actions, the [founderName]'s [memberNamePlural] saw [deity0_name] as a threat.</li>
+          <!-- ideological founder -->
+          <li>setup(tag=meme_RTC_AncientPrimacy)           ->[founderName] built a colony on a green world, spreading the dominion of ancient history over every field and forest.</li>
+          <li>story(uses=1,tag=meme_RTC_AncientPrimacy)    ->Once, [founderName] saw a [animal] attack a chiled. [founder_pronoun] ordered it to be killed on the spot.</li>
+          <!-- ideological lesson -->
+          <li>lessonIntro(tag=meme_RTC_AncientPrimacy)         ->I visited a ruin full of archaic life. Beside it was a camp of [foeSoldiers], it became clear that:</li>
+          <li>lesson(tag=meme_RTC_AncientPrimacy)              ->I need to intervene before they destroy this place</li>
+          <li>lesson(tag=meme_RTC_AncientPrimacy)              ->I must protect these ancient structures</li>
+          <li>lessonReinforcement(tag=meme_RTC_AncientPrimacy) ->If I cannot, then I would have failed the ancients and their goals.</li>
+          <!-- archist -->
+          <li>archistBasis(tag=meme_RTC_AncientPrimacy)    ->Archotechs are machines of vast will and power, but only the ancients could create them.</li>
+          <li>archistFact(tag=meme_RTC_AncientPrimacy)     ->The ancients are the device-makers, and the archotechs are their devices.</li>
+          <li>archistProphecy(tag=meme_RTC_AncientPrimacy) ->[inTheEnd], by observing the ancients, the archotechs will finally understand their purpose, and lift them up to rule over them.</li>
+          <!-- animist -->
+          <li>animistFact(tag=meme_RTC_AncientPrimacy)     ->Nature's life deserved to be protected at all cost, for they are equal in nature to the ancients.</li>
+        	<!-- serketist -->
+					<li>serketistProphecy(tag=meme_RTC_AncientPrimacy)->[itIsSaid] we and the bugs will exist throughout many ages, and that we will bring a new era of prosperity.</li>
+					<!-- eldritch / chthonian -->
+					<li>chthonianProphecy(tag=meme_RTC_AncientPrimacy)->We are nothing to these eldritch entities, and only by following their ways can we hope to stand a chance against them.</li>
+					<!-- esoteric -->
+					<li>esotericismProphecy(tag=meme_RTC_AncientPrimacy)->Such occult knowledge will be hard to find. We will study the ruins of the ancients, for they are perfect beings and the key to unlocking the secrets of the Cosmos.</li>
+					<!-- eschatologism -->
+					<li>eschatologismFact(tag=meme_RTC_AncientPrimacy)->We will emulate the rage and ferocity of the ancients, perfect beings who are hell-bent on retaining dominion over existence.</li>
+					<!-- corporate -->
+					<li>introMemo(tag=meme_RTC_AncientPrimacy)->Starting next quarter, we will provide to each and every employee, a free "support the ancients" jersey. They will come bundled with a free "save the forest" coffee mug.</li>
+					<!-- alienist -->
+					<li>alienistProphecy(tag=meme_RTC_AncientPrimacy)->These mortal creatures are faulty, mere fools that pale in comparison to any ancient being, but they are a step in the right direction.</li>
+				</rulesStrings>
+      </rules>
+    </descriptionMaker>
+    <symbolPacks>
+      <li>
+        <ideoName>Ancientism</ideoName>
+        <theme>ancients</theme>
+        <adjective>ancientist</adjective>
+        <member>ancient</member>
+      </li>
+    </symbolPacks>
+    <ritualsToMake>1</ritualsToMake>
+    <replaceRitualsWithTags><li>CelebratedDate</li></replaceRitualsWithTags>
+    <replacementPatterns><li>SacrificeAnimal</li></replacementPatterns>
+  </MemeDef>
+
+</Defs>
