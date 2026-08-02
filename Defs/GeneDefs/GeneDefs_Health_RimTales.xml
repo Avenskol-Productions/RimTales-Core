@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef Name="RTC_Organ" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <exclusionTags>
+      <li>ToxicEnvironmentResistance</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="RTC_Organ">
+    <defName>Organ_Invelize_RTC</defName>
+    <label>invelize organ</label>
+    <labelShortAdj>invelizing</labelShortAdj>
+    <description>Carriers of this gene heal from wounds 75% slower than normal, but are however 75% more resistant to disease. They are also immune to toxins.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <displayOrderInCategory>5</displayOrderInCategory>
+    <immuneToToxGasExposure>true</immuneToToxGasExposure>
+    <statFactors>
+      <InjuryHealingFactor>0.25</InjuryHealingFactor>
+      <ImmunityGainSpeed>1.75</ImmunityGainSpeed>
+    </statFactors>
+    <statOffsets>
+      <ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+    </statOffsets>
+    <biostatMet>-1</biostatMet>
+    <biostatCpx>4</biostatCpx>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>invelized</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

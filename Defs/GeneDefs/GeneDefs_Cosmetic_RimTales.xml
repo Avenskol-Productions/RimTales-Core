@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Hair-->
+
+  <GeneDef Name="GeneHairStyleBase_RTC" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <exclusionTags>
+      <li>HairStyle</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneHairStyleBase_RTC">
+    <defName>Hair_PonyTail_RTC</defName>
+    <label>pony-tailed</label>
+    <labelShortAdj>pony</labelShortAdj>
+    <description>Carriers of this gene can only grow short hair.</description>
+    <iconPath>UI/Icons/Genes/Gene_HairStyleShortOnly</iconPath>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <hairTagFilter>
+      <whitelist>true</whitelist>
+      <tags>
+        <li>Urban</li>
+      </tags>
+    </hairTagFilter>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>pony-tailed</symbol></li>
+        <li><symbol>ponytail</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>pony</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!--Tail-->
+
+  <GeneDef Name="GeneTailBase_RTC" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <randomChosen>true</randomChosen>
+    <exclusionTags>
+      <li>Tail</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneTailBase_RTC">
+    <defName>Tail_Clawed_RTC</defName>
+    <label>clawed tail</label>
+    <description>Carriers of this gene grow a slender tail with edged claws.</description>
+    <iconPath>UI/Icons/Genes/Gene_TailSmooth</iconPath>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <displayOrderInCategory>2</displayOrderInCategory>
+    <statFactors>
+      <MeleeDamageFactor>1.5</MeleeDamageFactor>
+    </statFactors>
+    <capMods>
+      <li>
+        <capacity>Manipulation</capacity>
+        <offset>0.05</offset>
+      </li>
+    </capMods>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <renderNodeProperties>
+      <li>
+        <workerClass>PawnRenderNodeWorker_AttachmentBody</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyAttachments/SmoothTail/SmoothTail</texPath>
+        <colorType>Hair</colorType>
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0, 0, -0.15)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0, 0, -0.15)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.5, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0.5, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <wholeNameSymbols>
+        <li><symbol>slasher</symbol></li>
+        <li><symbol>clawer</symbol></li>
+        <li><symbol>stinger</symbol></li>
+      </wholeNameSymbols>
+      <prefixSymbols>
+        <li><symbol>slash</symbol></li>
+        <li><symbol>claw</symbol></li>
+        <li><symbol>sting</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

@@ -8,7 +8,6 @@
     <label>anarchism</label>
     <description>All of us are naturally anarchists at heart.</description>
     <categoryDef>Mild</categoryDef>
-    <iconPath>UI/HeroArt/RimWorldLogo</iconPath>
     <classicPlus>true</classicPlus>
     <memes>
       <li>RTC_Anarchism</li>
@@ -20,7 +19,6 @@
     <label>anarcho-syndicalism</label>
     <description>In Labor movements generally, success through violence can hardly be expected except in circumstances where success without violence is attainable.</description>
     <categoryDef>Mild</categoryDef>
-    <iconPath>UI/HeroArt/RimWorldLogo</iconPath>
     <classicPlus>true</classicPlus>
     <memes>
       <li>RTC_Syndicalism</li>
@@ -42,7 +40,7 @@
 
   <IdeoPresetDef>
     <defName>RTC_Templar_Preset</defName>
-    <label>templar order</label>
+    <label>templar</label>
     <description>May the Father of Understanding guide us.</description>
     <categoryDef>Strong</categoryDef>
     <memes>

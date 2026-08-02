@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--Ears-->
+
+  <GeneDef Name="GeneEarsBase_RTC" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <endogeneCategory>Ears</endogeneCategory>
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <randomChosen>true</randomChosen>
+    <exclusionTags>
+      <li>Ears</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneEarsBase_RTC">
+    <defName>Ear_HF_RTC</defName>
+    <label>hearing feathers</label>
+    <description>Carriers of this gene will grow sensitive feathers.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarPig</iconPath>
+    <displayOrderInCategory>3</displayOrderInCategory>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>PawnRenderNodeWorker_FlipWhenCrawling</workerClass>
+        <texPath>Things/Pawn/Humanlike/HeadAttachments/PigEars/PigEars</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>feather eared</symbol></li>
+      </prefixSymbols>
+      <suffixSymbols>
+        <li><symbol>bird</symbol></li>
+        <li><symbol>birb</symbol></li>
+      </suffixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <!--Jaws-->
+
+  <GeneDef Name="GeneJawBase_RTC" Abstract="True">
+    <biostatCpx>0</biostatCpx>
+    <endogeneCategory>Jaw</endogeneCategory>
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <randomChosen>true</randomChosen>
+    <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <exclusionTags>
+      <li>Jaw</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneJawBase_RTC">
+    <defName>Head_Billed_RTC</defName>
+    <label>billed head</label>
+    <description>Carriers of this gene have a billed appearance.</description>
+    <iconPath>UI/Icons/Genes/Gene_GauntHead</iconPath>
+    <forcedHeadTypes>
+      <li>Gaunt</li>
+      <li>Furskin_Gaunt</li>
+    </forcedHeadTypes>
+    <displayOrderInCategory>4</displayOrderInCategory>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>billed</symbol></li>
+        <li><symbol>bill-faced</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>
