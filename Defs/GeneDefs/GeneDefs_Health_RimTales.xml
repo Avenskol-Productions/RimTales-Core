@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <GeneDef Name="RTC_GeneHealingRateBase" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <exclusionTags>
+      <li>WoundHealingRate</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="RTC_GeneHealingRateBase">
+    <defName>WoundHealing_None</defName>
+    <label>no wound healing</label>
+    <labelShortAdj>no-heal</labelShortAdj>
+    <description>Carriers of this gene never heal.</description>
+    <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <statFactors>
+      <InjuryHealingFactor>-1.0</InjuryHealingFactor>
+    </statFactors>
+    <biostatMet>4</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>pathetic</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
   <GeneDef Name="RTC_Organ" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
     <exclusionTags>
