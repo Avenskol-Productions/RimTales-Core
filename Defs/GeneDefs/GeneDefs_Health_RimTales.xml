@@ -3,18 +3,18 @@
 
   <GeneDef Name="RTC_GeneHealingRateBase" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
+    <displayOrderInCategory>6</displayOrderInCategory>
     <exclusionTags>
       <li>WoundHealingRate</li>
     </exclusionTags>
   </GeneDef>
 
   <GeneDef ParentName="RTC_GeneHealingRateBase">
-    <defName>WoundHealing_None</defName>
+    <defName>WoundHealing_None_RTC</defName>
     <label>no wound healing</label>
     <labelShortAdj>no-heal</labelShortAdj>
     <description>Carriers of this gene never heal.</description>
     <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
-    <displayOrderInCategory>30</displayOrderInCategory>
     <statFactors>
       <InjuryHealingFactor>-1.0</InjuryHealingFactor>
     </statFactors>
@@ -28,6 +28,7 @@
 
   <GeneDef Name="RTC_Organ" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
+    <displayOrderInCategory>7</displayOrderInCategory>
     <exclusionTags>
       <li>ToxicEnvironmentResistance</li>
     </exclusionTags>
@@ -39,7 +40,6 @@
     <labelShortAdj>invelizing</labelShortAdj>
     <description>Carriers of this gene heal from wounds 75% slower than normal, but are however 75% more resistant to disease. They are also immune to toxins.</description>
     <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
-    <displayOrderInCategory>5</displayOrderInCategory>
     <immuneToToxGasExposure>true</immuneToToxGasExposure>
     <statFactors>
       <InjuryHealingFactor>0.25</InjuryHealingFactor>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef Name="GeneSpaceVacuumBase_RTC" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
+    <exclusionTags>
+      <li>VacuumResistance</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneSpaceVacuumBase_RTC">
+    <defName>Vacuum_Immunity_RTC</defName>
+    <label>vacuum immunity</label>
+    <labelShortAdj>vacuum-immune</labelShortAdj>
+    <description>Carriers of this gene suffer no ill effect within the vacuum of space. Given they self-regulate their breathing chemicals.</description>
+    <iconPath>UI/Icons/Genes/Gene_VacuumResistance</iconPath>
+    <statOffsets>
+      <VacuumResistance>1</VacuumResistance>
+      <ComfyTemperatureMin>-15</ComfyTemperatureMin>
+    </statOffsets>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>-3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>vacuumic</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

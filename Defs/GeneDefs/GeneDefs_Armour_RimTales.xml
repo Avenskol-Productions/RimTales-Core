@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef Name="RTC_GeneArmourBase" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <displayOrderInCategory>1</displayOrderInCategory>
+    <exclusionTags>
+      <li>AG_Armour</li>
+			<li>Armour</li>
+			<li>Armor</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="RTC_GeneArmourBase">
+    <defName>Carapace_RTC</defName>
+    <label>carapace</label>
+    <labelShortAdj>carapaced</labelShortAdj>
+    <description>Carriers of this gene take little damage.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <statFactors>
+      <IncomingDamageFactor>0.25</IncomingDamageFactor>
+    </statFactors>
+		<biostatMet>-3</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>shelled</symbol></li>
+        <li><symbol>hardened</symbol></li>
+        <li><symbol>encased</symbol></li>
+        <li><symbol>protected</symbol></li>
+        <li><symbol>shielded</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="RTC_GeneArmourBase">
+    <defName>Carapace_Spikes_RTC</defName>
+    <label>spiked carapace</label>
+    <labelShortAdj>spiked carapaced</labelShortAdj>
+    <description>Carriers of this gene take little damage, and reflect some back at their opponents.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <statFactors>
+      <IncomingDamageFactor>0.25</IncomingDamageFactor>
+      <MeleeDamageFactor>1.25</MeleeDamageFactor>
+    </statFactors>
+		<biostatMet>-4</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>spike shelled</symbol></li>
+        <li><symbol>spike hardened</symbol></li>
+        <li><symbol>spike encased</symbol></li>
+        <li><symbol>spike protected</symbol></li>
+        <li><symbol>spike shielded</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+  <GeneDef ParentName="RTC_GeneArmourBase">
+    <defName>DamageImmune_None_RTC</defName>
+    <label>damage immunity</label>
+    <labelShortAdj>invulnerability</labelShortAdj>
+    <description>Carriers of this gene never take damage.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <statFactors>
+      <IncomingDamageFactor>0.0</IncomingDamageFactor>
+    </statFactors>
+		<biostatMet>-5</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>invulnerable</symbol></li>
+        <li><symbol>impenetrable</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>

@@ -7,6 +7,7 @@
     <biostatCpx>0</biostatCpx>
     <displayCategory>RTC_GeneCat</displayCategory>
     <iconColor>(0.75, 0.75, 0.75)</iconColor>
+    <displayOrderInCategory>2</displayOrderInCategory>
     <exclusionTags>
       <li>HairStyle</li>
     </exclusionTags>
@@ -18,7 +19,6 @@
     <labelShortAdj>pony</labelShortAdj>
     <description>Carriers of this gene can only grow short hair.</description>
     <iconPath>UI/Icons/Genes/Gene_HairStyleShortOnly</iconPath>
-    <displayOrderInCategory>1</displayOrderInCategory>
     <hairTagFilter>
       <whitelist>true</whitelist>
       <tags>
@@ -41,6 +41,7 @@
   <GeneDef Name="GeneTailBase_RTC" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
     <randomChosen>true</randomChosen>
+    <displayOrderInCategory>3</displayOrderInCategory>
     <exclusionTags>
       <li>Tail</li>
     </exclusionTags>
@@ -52,7 +53,6 @@
     <description>Carriers of this gene grow a slender tail with edged claws.</description>
     <iconPath>UI/Icons/Genes/Gene_TailSmooth</iconPath>
     <iconColor>(0.75, 0.75, 0.75)</iconColor>
-    <displayOrderInCategory>2</displayOrderInCategory>
     <statFactors>
       <MeleeDamageFactor>1.5</MeleeDamageFactor>
     </statFactors>

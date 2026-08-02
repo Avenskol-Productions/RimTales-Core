@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GeneDef Name="GenePainBase_RTC" Abstract="True">
+    <displayCategory>RTC_GeneCat</displayCategory>
+    <displayOrderInCategory>9</displayOrderInCategory>
+    <exclusionTags>
+      <li>Pain</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GenePainBase_RTC">
+    <defName>Pain_Immune_RTC</defName>
+    <label>pain immunity</label>
+    <labelShortAdj>pain-immune</labelShortAdj>
+    <description>Carriers of this gene feel no pain. This is caused by anesthetizing chemicals, causing any would be pain to feel numb. This is extremely useful for warrior like people who fight until death consumes them, but is extremely dangerous otherwise.</description>
+    <iconPath>UI/Icons/Genes/Gene_SuperStrongImmunity</iconPath>
+    <painFactor>0.0</painFactor>
+    <biostatMet>-2</biostatMet>
+    <symbolPack>
+      <prefixSymbols>
+        <li><symbol>numb</symbol></li>
+      </prefixSymbols>
+    </symbolPack>
+  </GeneDef>
+
+</Defs>
