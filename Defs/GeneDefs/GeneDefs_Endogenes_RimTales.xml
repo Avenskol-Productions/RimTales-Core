@@ -9,7 +9,7 @@
     <displayCategory>RTC_GeneCat</displayCategory>
     <iconColor>(0.75, 0.75, 0.75)</iconColor>
     <randomChosen>true</randomChosen>
-    <displayOrderInCategory>4</displayOrderInCategory>
+    <displayOrderInCategory>5</displayOrderInCategory>
     <exclusionTags>
       <li>Ears</li>
     </exclusionTags>
@@ -56,7 +56,7 @@
     <displayCategory>RTC_GeneCat</displayCategory>
     <randomChosen>true</randomChosen>
     <iconColor>(0.75, 0.75, 0.75)</iconColor>
-    <displayOrderInCategory>5</displayOrderInCategory>
+    <displayOrderInCategory>6</displayOrderInCategory>
     <exclusionTags>
       <li>Jaw</li>
     </exclusionTags>

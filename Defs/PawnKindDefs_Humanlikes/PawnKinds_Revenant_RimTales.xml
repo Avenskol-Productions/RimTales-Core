@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="RTC_RevenantBase" Abstract="True">
+    <race>Human</race>
+    <defaultFactionDef>RTC_Revenant_Dark</defaultFactionDef>
+    <maxGenerationAge>80</maxGenerationAge>
+    <apparelTags>
+      <li>Neolithic</li>
+    </apparelTags>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="RTC_RevenantBase" Name="RTC_Revenant">
+    <defName>RTC_Revenant</defName>
+    <label>revenant</label>
+    <combatPower>145</combatPower>
+    <chemicalAddictionChance>0.10</chemicalAddictionChance>
+    <itemQuality>Poor</itemQuality>
+    <canBeSapper>true</canBeSapper>
+    <gearHealthRange>0.7~2.9</gearHealthRange>
+    <apparelMoney>450~950</apparelMoney>
+    <weaponMoney>590~850</weaponMoney>
+    <weaponTags>
+      <li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeDecent</li>
+      <li>NeolithicMeleeAdvanced</li>
+    </weaponTags>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <techHediffsChance>0.15</techHediffsChance>
+    <initialWillRange>3~8</initialWillRange>
+    <initialResistanceRange>28~46</initialResistanceRange>
+  </PawnKindDef>
+
+</Defs>

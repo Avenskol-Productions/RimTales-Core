@@ -3,7 +3,7 @@
 
   <GeneDef Name="RTC_GeneHealingRateBase" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
-    <displayOrderInCategory>6</displayOrderInCategory>
+    <displayOrderInCategory>7</displayOrderInCategory>
     <exclusionTags>
       <li>WoundHealingRate</li>
     </exclusionTags>
@@ -28,7 +28,7 @@
 
   <GeneDef Name="RTC_Organ" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
-    <displayOrderInCategory>7</displayOrderInCategory>
+    <displayOrderInCategory>8</displayOrderInCategory>
     <exclusionTags>
       <li>ToxicEnvironmentResistance</li>
     </exclusionTags>

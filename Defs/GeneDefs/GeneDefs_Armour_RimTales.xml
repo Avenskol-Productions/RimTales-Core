@@ -55,7 +55,7 @@
   </GeneDef>
 
   <GeneDef ParentName="RTC_GeneArmourBase">
-    <defName>DamageImmune_None_RTC</defName>
+    <defName>DamageImmune_RTC</defName>
     <label>damage immunity</label>
     <labelShortAdj>invulnerability</labelShortAdj>
     <description>Carriers of this gene never take damage.</description>

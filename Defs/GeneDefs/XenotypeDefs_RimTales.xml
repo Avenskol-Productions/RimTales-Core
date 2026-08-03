@@ -11,7 +11,7 @@
     	<factionlessGenerationWeight>40</factionlessGenerationWeight>
     	<inheritable>True</inheritable>
     	<genes>
-			<li>DamageImmune_None_RTC</li>
+			<li>DamageImmune_RTC</li>
 			<li>Tail_Clawed_RTC</li>
 			<li>WoundHealing_None_RTC</li>
 			<li>Vacuum_Immunity_RTC</li>
