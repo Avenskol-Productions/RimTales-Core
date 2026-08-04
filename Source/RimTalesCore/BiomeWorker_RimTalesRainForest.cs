@@ -11,19 +11,14 @@ public class BiomeWorker_RimTalesRainForest : BiomeWorker
             return -100f;
         }
         // We don't want to generate where it's too cold
-        if (tile.temperature < -10f)
+        if (tile.temperature < -15f)
         {
-            return 0f;
+            return 0.05f;
         }
         //We want to generate where there is a lot of rain
-        if (tile.rainfall > 600f)
+        if (tile.rainfall > 2000f)
         {
-            return 0f;
-        }
-        //We want to generate where there is a lot of swampland
-        if (tile.swampiness > 600f)
-        {
-            return 0f;
+            return 0.05f;
         }
         // We use the tileId as part of the seed to get a constant for each tile.
         // "^" is to perform a bitwise XOR operation
@@ -31,7 +26,7 @@ public class BiomeWorker_RimTalesRainForest : BiomeWorker
         // We add these last two pieces so that if another mod randomly generates their tiles, the values won't be the same
         // If our random value is above 0.009 we won't generate here
         // This might seem like a small amount, but there is over 100,000 tiles on a map with 30% coverage so the odds are quite high
-        if (Rand.ValueSeeded(planetTile.tileId ^ 0x11245d7a) > 0.50f)
+        if (Rand.ValueSeeded(planetTile.tileId ^ 0x11245d7a) > 0.05f)
         {
             return 0f;
         }
