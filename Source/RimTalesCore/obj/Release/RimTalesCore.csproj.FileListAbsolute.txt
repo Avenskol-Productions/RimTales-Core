@@ -4,3 +4,9 @@ C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCor
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.csproj.CoreCompileInputs.cache
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.dll
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.pdb
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\bin\Release\RimTalesCore.dll
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\bin\Release\RimTalesCore.pdb
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.csproj.AssemblyReference.cache
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.csproj.CoreCompileInputs.cache
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.dll
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.pdb
