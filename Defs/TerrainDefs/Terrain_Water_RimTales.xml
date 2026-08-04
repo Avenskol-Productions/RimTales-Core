@@ -53,6 +53,7 @@
   <TerrainDef Abstract="True" Name="RTC_ManaChestDeepBase" ParentName="RTC_ManaBase">
     <texturePath>Terrain/Surfaces/WaterChestDeepRamp</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
+    <fertility>0</fertility>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <waterBodyType>Freshwater</waterBodyType>
     <pathCost>42</pathCost>
@@ -63,10 +64,21 @@
   </TerrainDef>
 
   <TerrainDef ParentName="RTC_ManaChestDeepBase">
+    <defName>RTC_AcidManaChestDeep</defName>
+    <label>chest-deep mana</label>
+    <renderPrecedence>399</renderPrecedence>
+    <glowColor>(166,255,0,0)</glowColor>
+    <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+  </TerrainDef>
+
+  <TerrainDef ParentName="RTC_ManaChestDeepBase">
     <defName>RTC_FireManaChestDeep</defName>
     <label>chest-deep mana</label>
     <renderPrecedence>399</renderPrecedence>
-    <glowColor>(255,166,0,0)</glowColor>
+    <glowColor>(255,0,0,0)</glowColor>
     <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
     <waterDepthShaderParameters>
       <_UseWaterOffset>1</_UseWaterOffset>
@@ -87,6 +99,7 @@
   <TerrainDef Abstract="True" Name="RTC_ManaShallowBase" ParentName="RTC_ManaBase">
     <pathCost>30</pathCost>
     <avoidWander>true</avoidWander>
+    <fertility>0</fertility>
     <waterBodyType>Freshwater</waterBodyType>
     <affordances>
       <li>ShallowWater</li>
@@ -96,14 +109,14 @@
     </affordances>
   </TerrainDef>
 
-  <TerrainDef ParentName="WaterShallowBase" Name="RTC_ManaShallowBase">
-    <defName>RTC_FireManaShallow</defName>
+  <TerrainDef ParentName="RTC_ManaShallowBase">
+    <defName>RTC_AcidManaShallow</defName>
     <label>shallow mana</label>
     <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>398</renderPrecedence>
-    <glowColor>(255,166,0,0)</glowColor>
+    <glowColor>(166,255,0,0)</glowColor>
     <tags>
       <li>WaterFreshShallow</li>
     </tags>
@@ -112,7 +125,23 @@
     </waterDepthShaderParameters>
   </TerrainDef>
 
-  <TerrainDef ParentName="WaterShallowBase" Name="RTC_ManaShallowBase">
+  <TerrainDef ParentName="RTC_ManaShallowBase">
+    <defName>RTC_FireManaShallow</defName>
+    <label>shallow mana</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>398</renderPrecedence>
+    <glowColor>(255,0,0,0)</glowColor>
+    <tags>
+      <li>WaterFreshShallow</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+  </TerrainDef>
+
+  <TerrainDef ParentName="RTC_ManaShallowBase">
     <defName>RTC_IceManaShallow</defName>
     <label>shallow mana</label>
     <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
