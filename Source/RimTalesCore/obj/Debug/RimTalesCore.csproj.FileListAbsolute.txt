@@ -1,0 +1,6 @@
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\bin\Debug\RimTalesCore.dll
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\bin\Debug\RimTalesCore.pdb
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Debug\RimTalesCore.csproj.AssemblyReference.cache
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Debug\RimTalesCore.csproj.CoreCompileInputs.cache
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Debug\RimTalesCore.dll
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales-Core\Source\RimTalesCore\obj\Debug\RimTalesCore.pdb
