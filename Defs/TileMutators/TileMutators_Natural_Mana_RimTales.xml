@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TileMutatorDef>
+    <defName>RTC_ManaLake_Acid</defName>
+    <label>mana lake</label>
+    <description>A body of mana that has been converted to acid mana. The mana will burn.</description>
+    <categories>
+      <li>Lake</li>
+    </categories>
+    <priority>2</priority>
+    <workerClass>TileMutatorWorker_RTC_AcidManaLake</workerClass>
+    <biomeWhitelist>
+      <li>BorealForest</li>
+      <li>ColdBog</li>
+      <li>Glowforest</li>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+      <li>Tundra</li>
+    </biomeWhitelist>
+    <canSpawnOnRiver>false</canSpawnOnRiver>
+  </TileMutatorDef>
+
+  <TileMutatorDef>
+    <defName>RTC_ManaLake_Fire</defName>
+    <label>mana lake</label>
+    <description>A body of mana that has been converted to fire mana. The mana is hot.</description>
+    <categories>
+      <li>Lake</li>
+    </categories>
+    <priority>2</priority>
+    <workerClass>TileMutatorWorker_RTC_FireManaLake</workerClass>
+    <biomeWhitelist>
+      <li>BorealForest</li>
+      <li>ColdBog</li>
+      <li>Glowforest</li>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+      <li>Tundra</li>
+    </biomeWhitelist>
+    <canSpawnOnRiver>false</canSpawnOnRiver>
+  </TileMutatorDef>
+
+  <TileMutatorDef>
+    <defName>RTC_ManaLake_Ice</defName>
+    <label>mana lake</label>
+    <description>A body of mana that has been converted to ice mana. The mana is cold.</description>
+    <categories>
+      <li>Lake</li>
+    </categories>
+    <priority>2</priority>
+    <workerClass>TileMutatorWorker_RTC_IceManaLake</workerClass>
+    <biomeWhitelist>
+      <li>BorealForest</li>
+      <li>ColdBog</li>
+      <li>Glowforest</li>
+      <li>TemperateForest</li>
+      <li>TemperateSwamp</li>
+      <li>TropicalRainforest</li>
+      <li>TropicalSwamp</li>
+      <li>Tundra</li>
+    </biomeWhitelist>
+    <canSpawnOnRiver>false</canSpawnOnRiver>
+  </TileMutatorDef>
+
+</Defs>

@@ -50,6 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RimTalesCore_AcidManaLake.cs" />
+    <Compile Include="RimTalesCore_IceManaLake.cs" />
+    <Compile Include="RimTalesCore_FireManaLake.cs" />
+    <Compile Include="TerrainDefOf_RimTales.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
