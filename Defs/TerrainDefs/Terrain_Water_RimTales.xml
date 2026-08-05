@@ -48,6 +48,11 @@
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
+    <modExtensions>
+      <li Class="RimTalesCore.TerrainDef_RimTalesExtensions">
+        <RTC_manaBuildupFactor>3</RTC_manaBuildupFactor>
+      </li>
+    </modExtensions>
   </TerrainDef>
 
   <TerrainDef Abstract="True" Name="RTC_ManaChestDeepBase" ParentName="RTC_ManaBase">
