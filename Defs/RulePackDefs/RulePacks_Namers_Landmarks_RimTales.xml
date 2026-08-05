@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerLandmark_ManaLake_RTC</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=4)->mana lake</li>
+        <li>terrain_word->mana reservoir</li>
+        <li>terrain_word->mana loch</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
