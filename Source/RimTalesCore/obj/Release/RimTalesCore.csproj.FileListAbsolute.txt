@@ -10,3 +10,5 @@ C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\Ri
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.csproj.CoreCompileInputs.cache
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.dll
 C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTalesCore.pdb
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\bin\Release\0Harmony.dll
+C:\Users\pwthe\Desktop\Rimworld\Mods\Expansions\RimTales\RimTales-Core\Source\RimTalesCore\obj\Release\RimTales.09E380ED.Up2Date

@@ -7,15 +7,15 @@ namespace Verse
 {
     public static class ManaUtility_RimTales
     {
-        public static void PawnRTC_ManaTickInterval(Pawn pawn, int delta)
+        public static void PawnRTC_ManaTickInterval(Pawn pawn)
         {
-            if (!pawn.IsHashIntervalTick(3451, delta) || !pawn.Spawned)
+            if (!pawn.IsHashIntervalTick(CheckInterval) || !pawn.Spawned || pawn.Dead)
             {
                 return;
             }
             TerrainDef terrain = pawn.Position.GetTerrain(pawn.Map);
             float num = 0f;
-            if (terrain.HasModExtension<TerrainDef_RimTalesExtensions>())
+            if (terrain != null && terrain.HasModExtension<TerrainDef_RimTalesExtensions>())
             {
                 num = terrain.GetModExtension<TerrainDef_RimTalesExtensions>().RTC_manaBuildupFactor;
             }
@@ -46,5 +46,6 @@ namespace Verse
             }
         }
         public const int CheckInterval = 3451;
+        private const float ManaPerDay = 0.4f;
     }
 }
