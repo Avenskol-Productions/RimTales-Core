@@ -67,6 +67,9 @@
     <defName>RTC_AcidManaChestDeep</defName>
     <label>chest-deep mana</label>
     <renderPrecedence>399</renderPrecedence>
+    <extraDeteriorationFactor>5</extraDeteriorationFactor>
+    <burnDamage>3</burnDamage>
+    <burnIntervalTicks>120</burnIntervalTicks>
     <glowColor>(166,255,0,0)</glowColor>
     <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
     <waterDepthShaderParameters>
@@ -78,6 +81,14 @@
     <defName>RTC_FireManaChestDeep</defName>
     <label>chest-deep mana</label>
     <renderPrecedence>399</renderPrecedence>
+    <extinguishesFire>false</extinguishesFire>
+    <extraDeteriorationFactor>10</extraDeteriorationFactor>
+    <meltSnowRadius>4</meltSnowRadius>
+    <heatPerTick>0.25</heatPerTick>
+    <igniteRadius>1.9</igniteRadius>
+    <burnDamage>6</burnDamage>
+    <burnIntervalTicks>120</burnIntervalTicks>
+    <ignitePawnsIntervalTicks>240</ignitePawnsIntervalTicks>
     <glowColor>(255,0,0,0)</glowColor>
     <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
     <waterDepthShaderParameters>
@@ -115,6 +126,9 @@
     <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <burnDamage>3</burnDamage>
+    <burnIntervalTicks>120</burnIntervalTicks>
+    <extraDeteriorationFactor>5</extraDeteriorationFactor>
     <renderPrecedence>398</renderPrecedence>
     <glowColor>(166,255,0,0)</glowColor>
     <tags>
@@ -130,6 +144,14 @@
     <label>shallow mana</label>
     <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
     <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
+    <meltSnowRadius>4</meltSnowRadius>
+    <heatPerTick>0.25</heatPerTick>
+    <igniteRadius>1.9</igniteRadius>
+    <burnDamage>6</burnDamage>
+    <burnIntervalTicks>120</burnIntervalTicks>
+    <ignitePawnsIntervalTicks>240</ignitePawnsIntervalTicks>
+    <extinguishesFire>false</extinguishesFire>
+    <extraDeteriorationFactor>10</extraDeteriorationFactor>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <renderPrecedence>398</renderPrecedence>
     <glowColor>(255,0,0,0)</glowColor>
