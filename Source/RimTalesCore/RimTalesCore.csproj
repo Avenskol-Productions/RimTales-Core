@@ -56,17 +56,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Harmony_RimTales.cs" />
-    <Compile Include="HediffDefOf.cs" />
-    <Compile Include="ManaExplosion_RimTales.cs" />
-    <Compile Include="ManaUtility_RimTales.cs" />
+    <Compile Include="Code\Harmony_RimTales.cs" />
+    <Compile Include="Code\HediffDefOf.cs" />
+    <Compile Include="Code\ManaExplosion_RimTales.cs" />
+    <Compile Include="Code\ManaUtility_RimTales.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RimTalesCore_AcidManaLake.cs" />
-    <Compile Include="RimTalesCore_IceManaLake.cs" />
-    <Compile Include="RimTalesCore_FireManaLake.cs" />
-    <Compile Include="TerrainDefOf_RimTales.cs" />
-    <Compile Include="TerrainDef_RimTales.cs" />
-    <Compile Include="WeatherDef_RimTales.cs" />
+    <Compile Include="Code\RimTalesCore_AcidManaLake.cs" />
+    <Compile Include="Code\RimTalesCore_IceManaLake.cs" />
+    <Compile Include="Code\RimTalesCore_FireManaLake.cs" />
+    <Compile Include="Code\TerrainDefOf_RimTales.cs" />
+    <Compile Include="Code\TerrainDef_RimTales.cs" />
+    <Compile Include="Code\WeatherDef_RimTales.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
