@@ -2,12 +2,41 @@
 <Defs>
 
 	<XenotypeDef>
+    	<defName>RTC_Conduit</defName>
+    	<label>conduit</label>
+    	<description>This person has adapted to a degree of mana exposure.</description>
+    	<descriptionShort>Mana adapted individual</descriptionShort>
+    	<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    	<displayPriority>1000</displayPriority>
+    	<factionlessGenerationWeight>40</factionlessGenerationWeight>
+    	<inheritable>True</inheritable>
+    	<genes>
+			<li>ManaEnvironmentResistance_Partial_RTC</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
+    	<defName>RTC_Mana_Infused</defName>
+    	<label>mana infused</label>
+    	<description>This person has been infused with mana.</description>
+    	<descriptionShort>Mana infused individual</descriptionShort>
+    	<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+    	<displayPriority>1001</displayPriority>
+    	<factionlessGenerationWeight>40</factionlessGenerationWeight>
+    	<inheritable>True</inheritable>
+    	<genes>
+			<li>ManaEnvironmentResistance_Partial_RTC</li>
+			<li>ManaResist_Partial_RTC</li>
+		</genes>
+	</XenotypeDef>
+
+	<XenotypeDef>
     	<defName>RTC_Revenant_Dark</defName>
     	<label>dark revenant</label>
     	<description>A revenant whom swore a pact with Hell!</description>
     	<descriptionShort>A revenant born through Hell!</descriptionShort>
     	<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
-    	<displayPriority>1000</displayPriority>
+    	<displayPriority>1002</displayPriority>
     	<factionlessGenerationWeight>40</factionlessGenerationWeight>
     	<inheritable>True</inheritable>
     	<genes>
@@ -52,7 +81,7 @@
     	<description>A xylat that was born through fierce kinship.</description>
     	<descriptionShort>A xylat born through fierce kinship.</descriptionShort>
     	<iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
-    	<displayPriority>1000</displayPriority>
+    	<displayPriority>1003</displayPriority>
     	<factionlessGenerationWeight>40</factionlessGenerationWeight>
     	<inheritable>True</inheritable>
     	<genes>
