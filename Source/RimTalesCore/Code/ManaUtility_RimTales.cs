@@ -7,7 +7,7 @@ namespace Verse
 {
     public static class ManaUtility_RimTales
     {
-        public static void PawnRTC_ManaTickInterval(Pawn pawn)
+        public static void RTC_PawnRTC_ManaTickInterval(Pawn pawn)
         {
             if (!pawn.IsHashIntervalTick(CheckInterval) || !pawn.Spawned || pawn.Dead)
             {
@@ -21,22 +21,22 @@ namespace Verse
             }
             if (num > 0f)
             {
-                ManaUtility_RimTales.DoPawnToxicDamage(pawn, num);
+                ManaUtility_RimTales.RTC_DoPawnManaDamage(pawn, num);
             }
         }
-        public static void DoAirbornePawnToxicDamage(Pawn p, float extraFactor = 1f)
+        public static void RTC_DoAirbornePawnManaDamage(Pawn p, float extraFactor = 1f)
         {
             if (p.Spawned && p.Position.Roofed(p.Map))
             {
                 return;
             }
-            ManaUtility_RimTales.DoPawnToxicDamage(p, extraFactor);
+            ManaUtility_RimTales.RTC_DoPawnManaDamage(p, extraFactor);
         }
-        public static void DoPawnToxicDamage(Pawn p, float extraFactor = 1f)
+        public static void RTC_DoPawnManaDamage(Pawn p, float extraFactor = 1f)
         {
             float num = 0.023006668f;
-            num *= Mathf.Max(1f - p.GetStatValue(StatDefOf.ToxicResistance, true, -1), 0f);
-            num *= Mathf.Max(1f - p.GetStatValue(StatDefOf.ToxicEnvironmentResistance, true, -1), 0f);
+            num *= Mathf.Max(1f - p.GetStatValue(StatDefOf_RimTales.RTC_ManaResistance, true, -1), 0f);
+            num *= Mathf.Max(1f - p.GetStatValue(StatDefOf_RimTales.RTC_ManaEnvironmentResistance, true, -1), 0f);
             num *= extraFactor;
             if (num != 0f)
             {

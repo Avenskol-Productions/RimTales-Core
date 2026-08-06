@@ -5,7 +5,7 @@
     <defName>RTC_ManaBuildup</defName>
     <label>mana sickness</label>
     <description>Mana in the bloodstream. This can come from various sources, including environmental mana, spiritual attacks, or certain weapons.
-\nAt high doses, mana sickness is lethal in high levels.</description>
+\nAt high levels, mana sickness can be lethal.</description>
     <hediffClass>HediffWithComps</hediffClass>
     <defaultLabelColor>(0.7, 0.7, 1.0)</defaultLabelColor>
     <lethalSeverity>1</lethalSeverity>
@@ -15,7 +15,7 @@
     <taleOnVisible>ToxicityRevealed</taleOnVisible>
     <comps>
       <li Class="HediffCompProperties_Immunizable">
-        <compClass>HediffComp_ImmunizableToxic</compClass>
+        <compClass>HediffComp_ImmunizableMana_RimTales</compClass>
         <severityPerDayNotImmune>-0.08</severityPerDayNotImmune>
       </li>
       <li Class="HediffCompProperties_SurgeryInspectable">

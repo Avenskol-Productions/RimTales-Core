@@ -11,7 +11,7 @@ namespace RimTalesCore
         {
             if (__instance == null || !__instance.Spawned) return;
             if (__instance.RaceProps.IsMechanoid) return;
-            ManaUtility_RimTales.PawnRTC_ManaTickInterval(__instance);
+            ManaUtility_RimTales.RTC_PawnRTC_ManaTickInterval(__instance);
         }
     }
     [StaticConstructorOnStartup]
