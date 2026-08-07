@@ -35,6 +35,9 @@
     </categories>
     <priority>2</priority>
     <workerClass>TileMutatorWorker_RTC_FireManaLake</workerClass>
+    <additionalGameConditions>
+      <li>ManaFog_RimTales</li>
+    </additionalGameConditions>
     <biomeWhitelist>
       <li>BorealForest</li>
       <li>ColdBog</li>
@@ -57,6 +60,9 @@
     </categories>
     <priority>2</priority>
     <workerClass>TileMutatorWorker_RTC_IceManaLake</workerClass>
+    <additionalGameConditions>
+      <li>ManaFog_RimTales</li>
+    </additionalGameConditions>
     <biomeWhitelist>
       <li>BorealForest</li>
       <li>ColdBog</li>
