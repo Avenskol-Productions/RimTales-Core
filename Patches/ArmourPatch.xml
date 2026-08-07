@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_GasMask"]/equippedStatOffsets</xpath>
+    <value>
+      <RTC_ManaEnvironmentResistance>0.8</RTC_ManaEnvironmentResistance>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_VacsuitHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <RTC_ManaEnvironmentResistance>0.8</RTC_ManaEnvironmentResistance>
+    </value>
+  </Operation>
+</Patch>
