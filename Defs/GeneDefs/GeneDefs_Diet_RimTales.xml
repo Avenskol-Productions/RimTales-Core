@@ -3,40 +3,12 @@
 
   <!--Hair-->
 
-  <GeneDef Name="GeneDietyBase_RTC" Abstract="True">
+  <GeneDef Name="GeneDietBase_RTC" Abstract="True">
     <displayCategory>RTC_GeneCat</displayCategory>
     <displayOrderInCategory>3</displayOrderInCategory>
     <exclusionTags>
       <li>Diet</li>
     </exclusionTags>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneDietyBase_RTC">
-    <defName>Carnivore_RTC</defName>
-    <label>carnivorous</label>
-    <labelShortAdj>carnivorous</labelShortAdj>
-    <description>Carriers of this gene are carnivores.</description>
-    <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
-    <biostatMet>1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>carnivorous</symbol></li>
-      </prefixSymbols>
-    </symbolPack>
-  </GeneDef>
-
-  <GeneDef ParentName="GeneDietyBase_RTC">
-    <defName>Herbivore_RTC</defName>
-    <label>herbivorous</label>
-    <labelShortAdj>herbivorous</labelShortAdj>
-    <description>Carriers of this gene are herbivores.</description>
-    <iconPath>UI/Icons/Genes/Gene_WoundHealingRateSlow</iconPath>
-    <biostatMet>1</biostatMet>
-    <symbolPack>
-      <prefixSymbols>
-        <li><symbol>herbivorous</symbol></li>
-      </prefixSymbols>
-    </symbolPack>
   </GeneDef>
 
 </Defs>
