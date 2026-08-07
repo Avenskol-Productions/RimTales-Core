@@ -16,7 +16,7 @@ namespace Verse
                 }
                 else if (!base.Pawn.Position.Roofed(base.Pawn.Map))
                 {
-                    if (base.Pawn.Map.GameConditionManager.ActiveConditions.Any((GameCondition x) => x.def.conditionClass == typeof(GameCondition_ToxicFallout)) && base.Pawn.GetStatValue(StatDefOf_RimTales.RTC_ManaResistance, true, -1) < 1f)
+                    if (base.Pawn.Map.GameConditionManager.ActiveConditions.Any((GameCondition x) => x.def.conditionClass == typeof(GameCondition_ManaFog_RimTales)) && base.Pawn.GetStatValue(StatDefOf_RimTales.RTC_ManaResistance, true, -1) < 1f)
                     {
                         num = 0f;
                     }

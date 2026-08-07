@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <IncidentDef>
+    <defName>ManaFog_RimTales</defName>
+    <label>Mana fog</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+    <gameCondition>ManaFog_RimTales</gameCondition>
+    <letterLabel>Mana fog</letterLabel>
+    <letterDef>ThreatSmall</letterDef>
+    <baseChance>0.12</baseChance>
+    <earliestDay>60</earliestDay>
+    <minRefireDays>90</minRefireDays>
+    <disabledWhen>
+      <extremeWeatherIncidentsDisabled>true</extremeWeatherIncidentsDisabled>
+    </disabledWhen>
+    <durationDays>2.5~10.5</durationDays>
+    <tale>ToxicFallout</tale>
+  </IncidentDef>
+
+</Defs>

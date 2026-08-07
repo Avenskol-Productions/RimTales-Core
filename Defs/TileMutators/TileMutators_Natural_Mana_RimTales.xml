@@ -10,6 +10,9 @@
     </categories>
     <priority>2</priority>
     <workerClass>TileMutatorWorker_RTC_AcidManaLake</workerClass>
+    <additionalGameConditions>
+      <li>ManaFog_RimTales</li>
+    </additionalGameConditions>
     <biomeWhitelist>
       <li>BorealForest</li>
       <li>ColdBog</li>

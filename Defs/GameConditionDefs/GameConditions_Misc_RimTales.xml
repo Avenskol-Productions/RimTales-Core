@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GameConditionDef>
+    <defName>ManaFog_RimTales</defName>
+    <conditionClass>GameCondition_ManaFog_RimTales</conditionClass>
+    <label>mana fog</label>
+    <description>Mana warp has become dense in this area.</description>
+    <descriptionFuture>mana warp levels are increasing in [map_definite] for [gameConditionDuration_duration], negatively effecting anything without mana resistances</descriptionFuture>
+    <endMessage>The mana fog has dissipated.</endMessage>
+    <letterText>A cloud of mana has encroached upon the area.\n\nAny person or creature not under a roof will be slowly experience mana sickness.\n\nIt will last for anywhere between a few days to nearly a quadrum.</letterText>
+    <letterDef>NegativeEvent</letterDef>
+    <canBePermanent>true</canBePermanent>
+    <allowUnderground>false</allowUnderground>
+    <pennedAnimalsSeekShelter>true</pennedAnimalsSeekShelter>
+  </GameConditionDef>
+
+</Defs>
