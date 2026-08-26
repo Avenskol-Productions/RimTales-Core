@@ -63,7 +63,9 @@
     <Compile Include="Code\IncidentDefOf_RimTales.cs" />
     <Compile Include="Code\ManaExplosion_RimTales.cs" />
     <Compile Include="Code\ManaUtility_RimTales.cs" />
+    <Compile Include="Code\PlaceWorkers\PlaceWorker_OnSpiceGeyser_RTC.cs" />
     <Compile Include="Code\StatDefOf_RimTales.cs" />
+    <Compile Include="Code\ThingDefOf_RimTales.cs" />
     <Compile Include="Code\Weather\GameCondition_ManaFog_RimTales.cs" />
     <Compile Include="Code\Weather\StatPart_ManaFog_RimTales.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

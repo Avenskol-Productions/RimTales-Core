@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BuildingNaturalBase" Name="RTC_SpiceGeyser">
+    <defName>RTC_SpiceGeyser</defName>
+    <label>spice geyser</label>
+    <description>A natural source of high-pressure spice. Spice Derelicts can be built to access the spice. Rooms built over this will rapidly cook.</description>
+    <thingClass>Building_SteamGeyser</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Natural/SteamGeyser</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <altitudeLayer>Floor</altitudeLayer>
+    <rotatable>false</rotatable>
+    <destroyable>false</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(2,2)</size>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <blockPlants>true</blockPlants>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <alwaysShowRelatedBuildCommands>true</alwaysShowRelatedBuildCommands>
+    </building>
+  </ThingDef>
+
+</Defs>
