@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\GameConditionDefOf_RimTales.cs" />
+    <Compile Include="Code\GenSteps\GenStep_SpiceGeyser_RTC.cs" />
     <Compile Include="Code\Harmony_RimTales.cs" />
     <Compile Include="Code\HediffComp_ImmunizableMana_RimTales.cs" />
     <Compile Include="Code\HediffDefOf.cs" />

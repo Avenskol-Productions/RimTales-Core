@@ -4,7 +4,7 @@
   <ThingDef ParentName="BuildingNaturalBase" Name="RTC_SpiceGeyser">
     <defName>RTC_SpiceGeyser</defName>
     <label>spice geyser</label>
-    <description>A natural source of high-pressure spice. Spice Derelicts can be built to access the spice. Rooms built over this will rapidly cook.</description>
+    <description>A natural source of high-pressure spice. Spice Derricks can be built to access the spice. Rooms built over this will rapidly cook.</description>
     <thingClass>Building_SteamGeyser</thingClass>
     <graphicData>
       <texPath>Things/Building/Natural/SteamGeyser</texPath>

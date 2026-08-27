@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Spice geysers -->
+  <GenStepDef>
+    <defName>SpiceGeysers_RTC</defName>
+    <order>950</order>
+    <genStep Class="GenStep_SpiceGeyser_RTC">
+      <thingDef>RTC_SpiceGeyser</thingDef>
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <minSpacing>25</minSpacing>
+      <extraNoBuildEdgeDist>4</extraNoBuildEdgeDist>
+      <countPer10kCellsRange>0.7~1</countPer10kCellsRange>
+      <clearSpaceSize>30</clearSpaceSize>
+      <terrainValidationRadius>4</terrainValidationRadius>
+      <terrainValidationDisallowed>
+        <li>Road</li>
+      </terrainValidationDisallowed>
+      <validators>
+        <li Class="ScattererValidator_Buildable">
+          <radius>4</radius>
+          <affordance>Heavy</affordance>
+        </li>
+        <li Class="ScattererValidator_NoNonNaturalEdifices">
+          <radius>4</radius>
+        </li>
+        <li Class="ScattererValidator_AvoidSpecialThings" />
+        <li Class="ScatterValidator_AvoidUsedRects">
+          <size>(6, 6)</size> <!-- For geothermal generators -->
+        </li>
+      </validators>
+    </genStep>
+  </GenStepDef>
+
+</Defs>
