@@ -5,7 +5,7 @@
     <defName>RTC_SpiceGeyser</defName>
     <label>spice geyser</label>
     <description>A natural source of high-pressure spice. Spice Derricks can be built to access the spice. Rooms built over this will rapidly cook.</description>
-    <thingClass>Building_SteamGeyser</thingClass>
+    <thingClass>Building_SpiceGeyser_RTC</thingClass>
     <graphicData>
       <texPath>Things/Building/Natural/SteamGeyser</texPath>
       <graphicClass>Graphic_Single</graphicClass>
