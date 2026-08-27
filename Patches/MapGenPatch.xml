@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<Patch>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/MapGeneratorDef[@ParentName="MapCommonBase"]/genSteps</xpath>
-    <value>
-      <li>SpiceGeysers_RTC</li>
-    </value>
-  </Operation>
-</Patch>

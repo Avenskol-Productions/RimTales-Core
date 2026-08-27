@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <TileMutatorDef>
+    <defName>SpiceField_White_RTC</defName>
+    <label>spice field</label>
+    <description>A field of spice geysers comprised of white spice.</description>
+    <chanceOnNonLandmarkTile>0.01</chanceOnNonLandmarkTile>
+    <extraGenSteps>
+      <li>SpiceGeysers_RTC</li>
+    </extraGenSteps>
+  </TileMutatorDef>
+
+</Defs>
