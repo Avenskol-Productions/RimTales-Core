@@ -5,7 +5,7 @@
   <GenStepDef>
     <defName>SpiceGeysers_RTC</defName>
     <order>950</order>
-    <genStep Class="GenStep_SpiceGeyser_RTC">
+    <genStep Class="GenStep_ScatterGeysers">
       <thingDef>RTC_SpiceGeyser</thingDef>
       <allowInWaterBiome>false</allowInWaterBiome>
       <minSpacing>25</minSpacing>
@@ -26,7 +26,7 @@
         </li>
         <li Class="ScattererValidator_AvoidSpecialThings" />
         <li Class="ScatterValidator_AvoidUsedRects">
-          <size>(6, 6)</size> <!-- For geothermal generators -->
+          <size>(6, 6)</size>
         </li>
       </validators>
     </genStep>
