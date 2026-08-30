@@ -1,0 +1,90 @@
+<Defs>
+
+    <!-- Spice trader -->
+    <TraderKindDef>
+        <defName>RTC_Caravan_SpiceTrader</defName>
+        <label>spice trader</label>
+        <stockGenerators>
+            <!-- Resources -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>800~1500</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Blue</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Green</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Pink</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Purple</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Red</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Yellow</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+        </stockGenerators>
+    </TraderKindDef>
+
+    <TraderKindDef>
+        <defName>RTC_Orbital_SpiceTrader</defName>
+        <label>spice trader</label>
+        <orbital>true</orbital>
+        <faction MayRequire="Ludeon.RimWorld.Odyssey">TradersGuild</faction>
+        <stockGenerators>
+            <!-- Resources -->
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>Silver</thingDef>
+                <countRange>2500~5000</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Blue</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Green</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Pink</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Purple</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Red</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <li Class="StockGenerator_SingleDef">
+                <thingDef>RTC_Spice_Item_Yellow</thingDef>
+                <countRange>1~99</countRange>
+            </li>
+            <!-- Buying -->
+            <li Class="StockGenerator_BuyExpensiveSimple" />
+        </stockGenerators>
+    </TraderKindDef>
+
+</Defs>

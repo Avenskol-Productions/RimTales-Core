@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase" Name="RTC_Spice_Item" >
+    <defName>RTC_Spice_Item</defName>
+    <label>white spice</label>
+    <description>A valuable chemical. It is a common trade in the galaxy.</description>
+    <possessionCount>99</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_White</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <stackLimit>99</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <intricate>true</intricate>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>0.0</MarketValue>
+      <Mass>1.0</Mass>
+      <Flammability>0.1</Flammability>
+      <DeteriorationRate>0.1</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Blue</defName>
+    <label>blue spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Blue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>26.14</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Green</defName>
+    <label>green spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Green</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>50.605</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Pink</defName>
+    <label>pink spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Pink</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>56.188</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Purple</defName>
+    <label>purple spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Purple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>73.0</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Red</defName>
+    <label>red spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Red</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>16.868</MarketValue>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="RTC_Spice_Item">
+    <defName>RTC_Spice_Item_Yellow</defName>
+    <label>yellow spice</label>
+    <graphicData>
+      <texPath>Things/Item/Resource/Spice_Yellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>22.491</MarketValue>
+    </statBases>
+  </ThingDef>
+
+</Defs>
